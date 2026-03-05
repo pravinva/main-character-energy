@@ -1,0 +1,37 @@
+bundle:
+  name: mce-field-app
+
+workspace:
+  host: https://fe-sandbox-serverless-sandbox-tladem.cloud.databricks.com
+  profile: fe-vm
+
+resources:
+  apps:
+    mce_field_app:
+      name: mce-field-operations
+      description: Main Character Energy - Field Operations Dashboard
+
+      resources:
+        - name: backend
+          description: FastAPI backend serving Lakebase data
+          source_code_path: ./backend
+
+        - name: frontend
+          description: React frontend dashboard
+          source_code_path: ./frontend
+
+      config:
+        command:
+          - "uvicorn"
+          - "app:app"
+          - "--host"
+          - "0.0.0.0"
+          - "--port"
+          - "8000"
+
+        env:
+          - name: LAKEBASE_CONN_STRING
+            value: "postgresql://mce_service:MCE_Service_2026!@ep-tiny-field-d2xsbyci.database.us-east-1.cloud.databricks.com:5432/databricks_postgres?sslmode=require"
+
+          - name: DATABRICKS_HOST
+            value: "https://fe-sandbox-serverless-sandbox-tladem.cloud.databricks.com"
