@@ -28,22 +28,28 @@ app.add_middleware(
 # Using OAuth token from environment for authentication
 OAUTH_TOKEN = os.environ.get("LAKEBASE_OAUTH_TOKEN", "")
 
-if not OAUTH_TOKEN:
-    raise ValueError("LAKEBASE_OAUTH_TOKEN environment variable must be set")
+# Flag for mock data mode (local development without OAuth token)
+USE_MOCK_DATA = not OAUTH_TOKEN
 
-from urllib.parse import quote_plus
-user_encoded = quote_plus("pravin.varma@databricks.com")
-token_encoded = quote_plus(OAUTH_TOKEN)
+if USE_MOCK_DATA:
+    print("⚠️  WARNING: LAKEBASE_OAUTH_TOKEN not set - using mock data for local development")
+    print("⚠️  Set LAKEBASE_OAUTH_TOKEN environment variable to connect to real Lakebase")
+    connection_pool = None
+    LAKEBASE_CONN_STRING = None
+else:
+    from urllib.parse import quote_plus
+    user_encoded = quote_plus("pravin.varma@databricks.com")
+    token_encoded = quote_plus(OAUTH_TOKEN)
 
-LAKEBASE_CONN_STRING = os.environ.get(
-    "LAKEBASE_CONN_STRING",
-    f"postgresql://{user_encoded}:{token_encoded}@instance-b77ccee1-1d75-4ab9-9b52-4fe0de04ae5e.database.cloud.databricks.com:5432/databricks_postgres?sslmode=require"
-)
-
-connection_pool = None
+    LAKEBASE_CONN_STRING = os.environ.get(
+        "LAKEBASE_CONN_STRING",
+        f"postgresql://{user_encoded}:{token_encoded}@instance-b77ccee1-1d75-4ab9-9b52-4fe0de04ae5e.database.cloud.databricks.com:5432/databricks_postgres?sslmode=require"
+    )
 
 def init_pool():
     global connection_pool
+    if USE_MOCK_DATA:
+        return  # Skip pool initialization in mock mode
     if not connection_pool:
         connection_pool = psycopg2.pool.SimpleConnectionPool(
             minconn=2,
@@ -52,11 +58,14 @@ def init_pool():
         )
 
 def get_conn():
+    if USE_MOCK_DATA:
+        raise Exception("Running in mock data mode - no database connection available")
     init_pool()
     return connection_pool.getconn()
 
 def return_conn(conn):
-    connection_pool.putconn(conn)
+    if connection_pool:
+        connection_pool.putconn(conn)
 
 # ─── ENDPOINTS ──────────────────────────────────────────────────────────────
 
@@ -70,6 +79,8 @@ def read_root():
 
 @app.get("/health")
 def health_check():
+    if USE_MOCK_DATA:
+        return {"status": "healthy", "lakebase": "mock_mode", "message": "Using mock data - set LAKEBASE_OAUTH_TOKEN to connect to real database"}
     try:
         conn = get_conn()
         cursor = conn.cursor()
