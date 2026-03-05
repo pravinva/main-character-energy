@@ -242,11 +242,31 @@ def generate_ai_work_order():
     import time
     from datetime import datetime, timedelta
 
-    # Get Databricks token
+    # Get Databricks token - try multiple sources
     DATABRICKS_TOKEN = os.environ.get("DATABRICKS_TOKEN")
+
     if not DATABRICKS_TOKEN:
-        # Try OAuth token as fallback
+        # Try OAuth token from Lakebase
         DATABRICKS_TOKEN = os.environ.get("LAKEBASE_OAUTH_TOKEN")
+
+    if not DATABRICKS_TOKEN:
+        # Try Databricks Apps service principal token
+        DATABRICKS_TOKEN = os.environ.get("DATABRICKS_APP_SERVICE_PRINCIPAL_TOKEN")
+
+    if not DATABRICKS_TOKEN:
+        # Try getting from databricks CLI profile
+        try:
+            import subprocess
+            result = subprocess.run(
+                ["databricks", "auth", "token", "--profile", "fe-vm"],
+                capture_output=True,
+                text=True,
+                timeout=5
+            )
+            if result.returncode == 0:
+                DATABRICKS_TOKEN = result.stdout.strip()
+        except Exception:
+            pass
 
     if not DATABRICKS_TOKEN:
         return {
