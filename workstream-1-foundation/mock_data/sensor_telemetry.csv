@@ -1,0 +1,101 @@
+asset_id,asset_name,site,asset_type,timestamp,vibration_hz,temp_celsius,rpm,voltage_output
+MCE-0001,Wind Turbine 1,"Melbourne West Solar Park, VIC",wind_turbine,2026-03-05T11:19:50.298806,28.38,29.77,14.03,668.0
+MCE-0002,Wind Turbine 2,"Hunter Valley Gas Plant, NSW",wind_turbine,2026-03-05T11:19:50.298806,37.55,50.2,9.94,681.11
+MCE-0003,Wind Turbine 3,"Newcastle Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,29.54,32.18,11.08,678.54
+MCE-0004,Wind Turbine 4,"Gippsland Hydro Station, VIC",wind_turbine,2026-03-05T11:19:50.298806,22.03,35.08,14.25,653.22
+MCE-0005,Wind Turbine 5,"Newcastle Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,19.52,36.49,9.07,658.56
+MCE-0006,Wind Turbine 6,"Sydney North Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,27.45,34.93,11.26,652.49
+MCE-0007,Wind Turbine 7,"Hunter Valley Gas Plant, NSW",wind_turbine,2026-03-05T11:19:50.298806,39.99,36.68,13.39,687.84
+MCE-0008,Wind Turbine 8,"Newcastle Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,15.59,51.42,12.03,669.08
+MCE-0009,Wind Turbine 9,"Sydney North Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,43.28,33.96,10.73,685.67
+MCE-0010,Wind Turbine 10,"Newcastle Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,40.07,41.15,13.14,681.99
+MCE-0011,Wind Turbine 11,"Gippsland Hydro Station, VIC",wind_turbine,2026-03-05T11:19:50.298806,41.93,39.65,9.91,669.43
+MCE-0012,Wind Turbine 12,"Broken Hill Solar Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,26.67,45.07,13.59,678.97
+MCE-0013,Wind Turbine 13,"Broken Hill Solar Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,40.22,52.59,14.87,671.36
+MCE-0014,Wind Turbine 14,"Geelong Substation, VIC",wind_turbine,2026-03-05T11:19:50.298806,42.21,42.76,12.64,653.36
+MCE-0015,Wind Turbine 15,"Gippsland Hydro Station, VIC",wind_turbine,2026-03-05T11:19:50.298806,27.86,51.01,9.27,660.41
+MCE-0016,Wind Turbine 16,"Gippsland Hydro Station, VIC",wind_turbine,2026-03-05T11:19:50.298806,24.82,38.64,10.36,685.19
+MCE-0017,Wind Turbine 17,"Sydney North Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,23.35,53.54,10.95,683.4
+MCE-0018,Wind Turbine 18,"Gippsland Hydro Station, VIC",wind_turbine,2026-03-05T11:19:50.298806,98.81,59.83,8.36,688.08
+MCE-0019,Wind Turbine 19,"Newcastle Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,21.73,27.06,14.7,651.61
+MCE-0020,Wind Turbine 20,"Hunter Valley Gas Plant, NSW",wind_turbine,2026-03-05T11:19:50.298806,15.93,32.42,13.87,674.85
+MCE-0021,Wind Turbine 21,"Newcastle Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,22.16,39.21,8.8,687.91
+MCE-0022,Wind Turbine 22,"Hunter Valley Gas Plant, NSW",wind_turbine,2026-03-05T11:19:50.298806,28.95,32.69,10.58,674.24
+MCE-0023,Wind Turbine 23,"Melbourne West Solar Park, VIC",wind_turbine,2026-03-05T11:19:50.298806,43.91,46.55,13.44,656.55
+MCE-0024,Wind Turbine 24,"Newcastle Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,24.33,42.36,14.5,673.03
+MCE-0025,Wind Turbine 25,"Sydney North Wind Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,42.24,36.26,14.59,657.93
+MCE-0026,Wind Turbine 26,"Geelong Substation, VIC",wind_turbine,2026-03-05T11:19:50.298806,32.76,49.92,9.7,677.89
+MCE-0027,Wind Turbine 27,"Yarra Valley Hydro, VIC",wind_turbine,2026-03-05T11:19:50.298806,24.05,45.53,13.64,681.85
+MCE-0028,Wind Turbine 28,"Melbourne West Solar Park, VIC",wind_turbine,2026-03-05T11:19:50.298806,31.98,26.23,11.73,676.46
+MCE-0029,Wind Turbine 29,"Hunter Valley Gas Plant, NSW",wind_turbine,2026-03-05T11:19:50.298806,17.07,44.43,8.09,666.8
+MCE-0030,Wind Turbine 30,"Geelong Substation, VIC",wind_turbine,2026-03-05T11:19:50.298806,29.71,38.01,10.54,685.66
+MCE-0031,Wind Turbine 31,"Broken Hill Solar Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,28.79,29.59,9.23,670.87
+MCE-0032,Wind Turbine 32,"Melbourne West Solar Park, VIC",wind_turbine,2026-03-05T11:19:50.298806,34.51,43.48,14.44,680.99
+MCE-0033,Wind Turbine 33,"Hunter Valley Gas Plant, NSW",wind_turbine,2026-03-05T11:19:50.298806,28.95,49.77,12.15,662.89
+MCE-0034,Wind Turbine 34,"Broken Hill Solar Farm, NSW",wind_turbine,2026-03-05T11:19:50.298806,22.36,53.04,9.95,668.03
+MCE-0035,Wind Turbine 35,"Gippsland Hydro Station, VIC",wind_turbine,2026-03-05T11:19:50.298806,37.51,42.1,12.68,663.46
+MCE-0036,Gas Turbine 36,"Yarra Valley Hydro, VIC",gas_turbine,2026-03-05T11:19:50.298806,34.83,382.5,3292.53,11993.51
+MCE-0037,Gas Turbine 37,"Gippsland Hydro Station, VIC",gas_turbine,2026-03-05T11:19:50.298806,27.75,377.97,3357.69,13464.3
+MCE-0038,Gas Turbine 38,"Gippsland Hydro Station, VIC",gas_turbine,2026-03-05T11:19:50.298806,36.67,401.66,3114.63,11675.8
+MCE-0039,Gas Turbine 39,"Melbourne West Solar Park, VIC",gas_turbine,2026-03-05T11:19:50.298806,32.19,405.52,3144.19,12333.06
+MCE-0040,Gas Turbine 40,"Broken Hill Solar Farm, NSW",gas_turbine,2026-03-05T11:19:50.298806,41.36,394.82,3010.35,11823.86
+MCE-0041,Gas Turbine 41,"Yarra Valley Hydro, VIC",gas_turbine,2026-03-05T11:19:50.298806,96.18,407.18,3398.38,12033.26
+MCE-0042,Gas Turbine 42,"Melbourne West Solar Park, VIC",gas_turbine,2026-03-05T11:19:50.298806,36.6,384.38,3597.98,12541.09
+MCE-0043,Gas Turbine 43,"Newcastle Wind Farm, NSW",gas_turbine,2026-03-05T11:19:50.298806,30.55,395.37,3183.97,11645.51
+MCE-0044,Gas Turbine 44,"Newcastle Wind Farm, NSW",gas_turbine,2026-03-05T11:19:50.298806,41.64,381.55,3445.73,13662.46
+MCE-0045,Gas Turbine 45,"Gippsland Hydro Station, VIC",gas_turbine,2026-03-05T11:19:50.298806,40.7,369.15,3443.16,11774.2
+MCE-0046,Gas Turbine 46,"Newcastle Wind Farm, NSW",gas_turbine,2026-03-05T11:19:50.298806,37.69,426.02,3358.07,13745.43
+MCE-0047,Gas Turbine 47,"Melbourne West Solar Park, VIC",gas_turbine,2026-03-05T11:19:50.298806,44.98,379.62,3216.53,11846.35
+MCE-0048,Gas Turbine 48,"Sydney North Wind Farm, NSW",gas_turbine,2026-03-05T11:19:50.298806,41.24,362.66,3027.31,11152.67
+MCE-0049,Gas Turbine 49,"Yarra Valley Hydro, VIC",gas_turbine,2026-03-05T11:19:50.298806,28.76,444.41,3382.72,13107.82
+MCE-0050,Gas Turbine 50,"Hunter Valley Gas Plant, NSW",gas_turbine,2026-03-05T11:19:50.298806,23.08,351.23,3170.6,12340.4
+MCE-0051,Gas Turbine 51,"Yarra Valley Hydro, VIC",gas_turbine,2026-03-05T11:19:50.298806,30.22,446.55,3151.49,13412.82
+MCE-0052,Gas Turbine 52,"Hunter Valley Gas Plant, NSW",gas_turbine,2026-03-05T11:19:50.298806,23.42,356.53,3295.05,12615.66
+MCE-0053,Gas Turbine 53,"Sydney North Wind Farm, NSW",gas_turbine,2026-03-05T11:19:50.298806,40.59,365.17,3486.69,13657.55
+MCE-0054,Gas Turbine 54,"Yarra Valley Hydro, VIC",gas_turbine,2026-03-05T11:19:50.298806,22.56,374.82,3334.84,12165.29
+MCE-0055,Gas Turbine 55,"Melbourne West Solar Park, VIC",gas_turbine,2026-03-05T11:19:50.298806,37.88,411.84,3465.42,12065.06
+MCE-0056,Substation 56,"Gippsland Hydro Station, VIC",substation,2026-03-05T11:19:50.298806,18.63,25.95,0.0,132000.0
+MCE-0057,Substation 57,"Sydney North Wind Farm, NSW",substation,2026-03-05T11:19:50.298806,68.58,33.65,0.0,132000.0
+MCE-0058,Substation 58,"Broken Hill Solar Farm, NSW",substation,2026-03-05T11:19:50.298806,19.4,21.98,0.0,132000.0
+MCE-0059,Substation 59,"Newcastle Wind Farm, NSW",substation,2026-03-05T11:19:50.298806,105.02,28.47,0.0,132000.0
+MCE-0060,Substation 60,"Melbourne West Solar Park, VIC",substation,2026-03-05T11:19:50.298806,89.59,37.66,0.0,132000.0
+MCE-0061,Substation 61,"Melbourne West Solar Park, VIC",substation,2026-03-05T11:19:50.298806,68.17,36.54,0.0,132000.0
+MCE-0062,Substation 62,"Hunter Valley Gas Plant, NSW",substation,2026-03-05T11:19:50.298806,5.49,25.76,0.0,132000.0
+MCE-0063,Substation 63,"Broken Hill Solar Farm, NSW",substation,2026-03-05T11:19:50.298806,17.89,21.42,0.0,132000.0
+MCE-0064,Substation 64,"Sydney North Wind Farm, NSW",substation,2026-03-05T11:19:50.298806,8.97,35.82,0.0,132000.0
+MCE-0065,Substation 65,"Hunter Valley Gas Plant, NSW",substation,2026-03-05T11:19:50.298806,17.06,23.96,0.0,132000.0
+MCE-0066,Substation 66,"Broken Hill Solar Farm, NSW",substation,2026-03-05T11:19:50.298806,8.37,22.98,0.0,132000.0
+MCE-0067,Substation 67,"Gippsland Hydro Station, VIC",substation,2026-03-05T11:19:50.298806,7.13,21.19,0.0,132000.0
+MCE-0068,Substation 68,"Broken Hill Solar Farm, NSW",substation,2026-03-05T11:19:50.298806,103.8,46.38,0.0,132000.0
+MCE-0069,Substation 69,"Sydney North Wind Farm, NSW",substation,2026-03-05T11:19:50.298806,11.59,29.37,0.0,132000.0
+MCE-0070,Substation 70,"Hunter Valley Gas Plant, NSW",substation,2026-03-05T11:19:50.298806,68.05,26.53,0.0,132000.0
+MCE-0071,Solar Inverter 71,"Sydney North Wind Farm, NSW",solar_inverter,2026-03-05T11:19:50.298806,5.5,47.94,0.0,777.88
+MCE-0072,Solar Inverter 72,"Geelong Substation, VIC",solar_inverter,2026-03-05T11:19:50.298806,109.38,58.98,0.0,605.17
+MCE-0073,Solar Inverter 73,"Hunter Valley Gas Plant, NSW",solar_inverter,2026-03-05T11:19:50.298806,3.83,50.23,0.0,772.1
+MCE-0074,Solar Inverter 74,"Geelong Substation, VIC",solar_inverter,2026-03-05T11:19:50.298806,6.7,30.62,0.0,752.95
+MCE-0075,Solar Inverter 75,"Newcastle Wind Farm, NSW",solar_inverter,2026-03-05T11:19:50.298806,8.57,47.29,0.0,752.62
+MCE-0076,Solar Inverter 76,"Hunter Valley Gas Plant, NSW",solar_inverter,2026-03-05T11:19:50.298806,3.4,45.57,0.0,688.45
+MCE-0077,Solar Inverter 77,"Newcastle Wind Farm, NSW",solar_inverter,2026-03-05T11:19:50.298806,91.13,77.85,0.0,687.18
+MCE-0078,Solar Inverter 78,"Melbourne West Solar Park, VIC",solar_inverter,2026-03-05T11:19:50.298806,76.28,64.89,0.0,694.0
+MCE-0079,Solar Inverter 79,"Gippsland Hydro Station, VIC",solar_inverter,2026-03-05T11:19:50.298806,5.27,39.63,0.0,620.92
+MCE-0080,Solar Inverter 80,"Gippsland Hydro Station, VIC",solar_inverter,2026-03-05T11:19:50.298806,3.29,42.35,0.0,699.09
+MCE-0081,Solar Inverter 81,"Broken Hill Solar Farm, NSW",solar_inverter,2026-03-05T11:19:50.298806,7.3,42.01,0.0,752.1
+MCE-0082,Solar Inverter 82,"Geelong Substation, VIC",solar_inverter,2026-03-05T11:19:50.298806,2.29,32.64,0.0,650.48
+MCE-0083,Solar Inverter 83,"Broken Hill Solar Farm, NSW",solar_inverter,2026-03-05T11:19:50.298806,2.93,53.18,0.0,772.98
+MCE-0084,Solar Inverter 84,"Geelong Substation, VIC",solar_inverter,2026-03-05T11:19:50.298806,8.6,30.03,0.0,773.87
+MCE-0085,Solar Inverter 85,"Newcastle Wind Farm, NSW",solar_inverter,2026-03-05T11:19:50.298806,5.7,31.63,0.0,703.69
+MCE-0086,Solar Inverter 86,"Newcastle Wind Farm, NSW",solar_inverter,2026-03-05T11:19:50.298806,104.91,53.93,0.0,688.41
+MCE-0087,Solar Inverter 87,"Geelong Substation, VIC",solar_inverter,2026-03-05T11:19:50.298806,61.03,39.61,0.0,626.2
+MCE-0088,Solar Inverter 88,"Melbourne West Solar Park, VIC",solar_inverter,2026-03-05T11:19:50.298806,4.3,56.43,0.0,696.94
+MCE-0089,Solar Inverter 89,"Newcastle Wind Farm, NSW",solar_inverter,2026-03-05T11:19:50.298806,2.23,48.9,0.0,759.86
+MCE-0090,Solar Inverter 90,"Gippsland Hydro Station, VIC",solar_inverter,2026-03-05T11:19:50.298806,7.68,39.32,0.0,602.73
+MCE-0091,Hydro Unit 91,"Newcastle Wind Farm, NSW",hydro_unit,2026-03-05T11:19:50.298806,37.24,41.74,452.42,12248.07
+MCE-0092,Hydro Unit 92,"Gippsland Hydro Station, VIC",hydro_unit,2026-03-05T11:19:50.298806,53.41,54.43,246.19,21259.18
+MCE-0093,Hydro Unit 93,"Yarra Valley Hydro, VIC",hydro_unit,2026-03-05T11:19:50.298806,33.76,56.16,324.65,16307.5
+MCE-0094,Hydro Unit 94,"Hunter Valley Gas Plant, NSW",hydro_unit,2026-03-05T11:19:50.298806,39.17,48.7,243.39,13096.71
+MCE-0095,Hydro Unit 95,"Melbourne West Solar Park, VIC",hydro_unit,2026-03-05T11:19:50.298806,42.98,57.39,240.95,11767.91
+MCE-0096,Hydro Unit 96,"Hunter Valley Gas Plant, NSW",hydro_unit,2026-03-05T11:19:50.298806,48.18,60.63,301.96,19664.89
+MCE-0097,Hydro Unit 97,"Melbourne West Solar Park, VIC",hydro_unit,2026-03-05T11:19:50.298806,33.02,35.08,417.82,20212.24
+MCE-0098,Hydro Unit 98,"Newcastle Wind Farm, NSW",hydro_unit,2026-03-05T11:19:50.298806,42.4,54.8,459.58,15912.02
+MCE-0099,Hydro Unit 99,"Sydney North Wind Farm, NSW",hydro_unit,2026-03-05T11:19:50.298806,39.53,44.97,428.86,15149.31
+MCE-0100,Hydro Unit 100,"Yarra Valley Hydro, VIC",hydro_unit,2026-03-05T11:19:50.298806,52.99,61.09,494.23,13626.86
