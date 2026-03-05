@@ -37,21 +37,12 @@ interface Asset {
   predictedFailure: string | null;
 }
 
-interface WorkOrder {
-  id: string;
-  assetId: string;
-  priority: string;
-  status: string;
-  technician: string;
-  failureType: string;
-  createdAt: string;
-}
-
 interface Stats {
   critical_count: number;
   warning_count: number;
   healthy_count: number;
   total_assets: number;
+  total_sites: number;
   total_work_orders: number;
   p1_count: number;
   available_techs: number;
