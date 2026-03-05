@@ -317,23 +317,36 @@ def get_dashboard_stats():
 # Mount static files from frontend/dist
 static_path = Path(__file__).parent / "frontend" / "dist"
 if static_path.exists():
+    # Mount static assets (JS, CSS, images)
     app.mount("/assets", StaticFiles(directory=str(static_path / "assets")), name="assets")
 
-    @app.get("/{full_path:path}")
-    def serve_frontend(full_path: str):
-        """Serve the React frontend for all non-API routes"""
-        # Skip API routes
-        if full_path.startswith("api/") or full_path.startswith("health"):
-            return {"error": "Not found"}, 404
+    @app.get("/", response_class=FileResponse)
+    def serve_root():
+        """Serve the React frontend root"""
+        index_file = static_path / "index.html"
+        if index_file.exists():
+            return FileResponse(index_file)
+        raise HTTPException(status_code=404, detail="Frontend not built")
 
+    @app.get("/{full_path:path}", response_class=FileResponse)
+    def serve_frontend(full_path: str):
+        """Serve the React frontend for all non-API routes (SPA routing)"""
         # Serve index.html for all other routes (SPA routing)
         index_file = static_path / "index.html"
         if index_file.exists():
             return FileResponse(index_file)
-        return {"error": "Frontend not built"}, 404
+        raise HTTPException(status_code=404, detail="Frontend not built")
 else:
     print(f"⚠️  WARNING: Frontend dist directory not found at {static_path}")
     print("⚠️  Run 'npm run build' in the frontend directory to build the frontend")
+
+    @app.get("/")
+    def serve_root_fallback():
+        return {
+            "error": "Frontend not deployed",
+            "message": "Build the frontend with 'npm run build' in frontend/ directory",
+            "api_status": "operational"
+        }
 
 if __name__ == "__main__":
     import uvicorn
