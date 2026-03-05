@@ -72,14 +72,6 @@ def return_conn(conn):
 
 # ─── ENDPOINTS ──────────────────────────────────────────────────────────────
 
-@app.get("/")
-def read_root():
-    return {
-        "service": "Main Character Energy API",
-        "version": "1.0.0",
-        "status": "operational"
-    }
-
 @app.get("/health")
 def health_check():
     if USE_MOCK_DATA:
