@@ -1,0 +1,23 @@
+
+VESTAS V150-4.2MW WIND TURBINE MAINTENANCE MANUAL
+
+CRITICAL SAFETY PROCEDURES:
+- Always engage lockout/tagout before entering nacelle
+- Wear fall protection harness at all times
+- Maximum wind speed for maintenance: 15 m/s
+- Minimum crew size: 2 technicians
+
+VIBRATION TROUBLESHOOTING (>80Hz):
+1. Check main bearing condition - look for metal shavings in oil
+2. Inspect gearbox for gear tooth wear
+3. Verify blade balance using laser alignment tool
+4. Check tower bolts for loosening
+
+REQUIRED PARTS FOR BEARING REPLACEMENT:
+- SKF 7320 BECBM main bearing kit (Part #: V150-BR-001)
+- High-temperature bearing grease (5kg)
+- Hydraulic puller set
+- Torque wrench (0-2000 Nm)
+
+ESTIMATED REPAIR TIME: 8-12 hours
+        

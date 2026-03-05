@@ -1,0 +1,22 @@
+
+ABB PVS800 SOLAR INVERTER SERVICE MANUAL
+
+SAFETY CHECKLIST:
+- De-energize DC input before accessing internals
+- Verify zero voltage with multimeter
+- Wear arc flash rated PPE (40 cal/cm²)
+- Use insulated tools only
+
+OVERHEATING DIAGNOSIS (Temp > 70°C):
+1. Inspect cooling fan operation - replace if faulty
+2. Clean heat sink fins (compressed air)
+3. Check ambient temperature < 45°C
+4. Verify airflow clearance (min 1m on all sides)
+
+REQUIRED PARTS FOR COOLING FAN REPLACEMENT:
+- ABB cooling fan assembly (Part #: PVS800-FAN-02)
+- Fan controller board
+- Thermal paste
+
+ESTIMATED REPAIR TIME: 2-4 hours
+        

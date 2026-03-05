@@ -1,0 +1,550 @@
+asset_id,maintenance_date,maintenance_type,technician,work_performed,parts_replaced,downtime_hours,cost_aud,notes
+MCE-0092,2026-02-03,Inverter firmware update,Emma Thompson,Performed vibration sensor calibration,Bearing kit,3.8,23989.84,Completed successfully
+MCE-0086,2026-01-30,Vibration sensor calibration,David Martinez,Performed bearing replacement,Blade components,7.1,9929.52,Completed successfully
+MCE-0031,2026-01-30,Scheduled inspection,James Chen,Performed cooling system service,Oil filter,6.1,13711.41,Completed successfully
+MCE-0047,2026-01-27,Oil change,Sarah Williams,Performed inverter firmware update,Blade components,4.3,19248.89,Completed successfully
+MCE-0034,2026-01-27,Emergency repair,Michael O'Donnell,Performed emergency repair,Sensor module,4.7,17296.81,Completed successfully
+MCE-0060,2026-01-26,Blade adjustment,Emma Thompson,Performed oil change,Bearing kit,5.9,16225.57,Completed successfully
+MCE-0045,2026-01-20,Cooling system service,David Martinez,Performed cooling system service,None,1.2,16005.29,Completed successfully
+MCE-0007,2026-01-18,Cooling system service,David Martinez,Performed inverter firmware update,Blade components,1.2,8871.42,Completed successfully
+MCE-0048,2026-01-17,Scheduled inspection,David Martinez,Performed bearing replacement,Sensor module,1.9,20734.66,Completed successfully
+MCE-0074,2026-01-14,Cooling system service,James Chen,Performed inverter firmware update,Oil filter,5.9,3919.56,Completed successfully
+MCE-0078,2026-01-13,Scheduled inspection,David Martinez,Performed cooling system service,Oil filter,4.0,5397.19,Completed successfully
+MCE-0044,2026-01-11,Scheduled inspection,David Martinez,Performed oil change,Bearing kit,3.8,14638.76,Completed successfully
+MCE-0093,2026-01-09,Inverter firmware update,Michael O'Donnell,Performed inverter firmware update,Bearing kit,4.5,24625.45,Completed successfully
+MCE-0008,2026-01-07,Emergency repair,Michael O'Donnell,Performed oil change,Oil filter,3.3,18076.41,Completed successfully
+MCE-0069,2026-01-06,Bearing replacement,Michael O'Donnell,Performed oil change,None,2.5,20806.22,Follow-up required
+MCE-0043,2026-01-05,Cooling system service,David Martinez,Performed inverter firmware update,Sensor module,7.4,20366.69,Completed successfully
+MCE-0072,2026-01-04,Vibration sensor calibration,Sarah Williams,Performed inverter firmware update,Bearing kit,4.7,22591.33,Completed successfully
+MCE-0066,2026-01-02,Oil change,Emma Thompson,Performed inverter firmware update,Bearing kit,6.8,12829.74,Completed successfully
+MCE-0023,2026-01-01,Oil change,Michael O'Donnell,Performed vibration sensor calibration,Blade components,7.9,5780.39,Completed successfully
+MCE-0024,2026-01-01,Bearing replacement,Emma Thompson,Performed oil change,Oil filter,5.5,3743.87,Follow-up required
+MCE-0051,2025-12-31,Inverter firmware update,Michael O'Donnell,Performed emergency repair,None,7.1,9707.78,Follow-up required
+MCE-0030,2025-12-30,Inverter firmware update,James Chen,Performed scheduled inspection,Sensor module,1.7,6696.92,Completed successfully
+MCE-0009,2025-12-28,Scheduled inspection,David Martinez,Performed bearing replacement,None,7.6,20637.82,Completed successfully
+MCE-0030,2025-12-25,Scheduled inspection,Sarah Williams,Performed vibration sensor calibration,None,3.6,18568.76,Completed successfully
+MCE-0079,2025-12-25,Bearing replacement,Emma Thompson,Performed blade adjustment,Oil filter,2.7,4977.43,Completed successfully
+MCE-0095,2025-12-23,Scheduled inspection,Emma Thompson,Performed emergency repair,Bearing kit,4.3,24141.39,Completed successfully
+MCE-0077,2025-12-22,Oil change,Emma Thompson,Performed emergency repair,Bearing kit,2.9,7384.17,Completed successfully
+MCE-0094,2025-12-22,Emergency repair,David Martinez,Performed scheduled inspection,Oil filter,3.4,4357.47,Completed successfully
+MCE-0070,2025-12-21,Oil change,James Chen,Performed scheduled inspection,Bearing kit,4.7,21138.91,Completed successfully
+MCE-0061,2025-12-19,Emergency repair,Sarah Williams,Performed emergency repair,Blade components,6.1,12056.01,Completed successfully
+MCE-0048,2025-12-18,Oil change,David Martinez,Performed oil change,None,1.5,6980.43,Completed successfully
+MCE-0059,2025-12-18,Vibration sensor calibration,Emma Thompson,Performed inverter firmware update,Bearing kit,3.1,2909.32,Completed successfully
+MCE-0057,2025-12-17,Scheduled inspection,James Chen,Performed oil change,Blade components,2.3,4011.44,Follow-up required
+MCE-0057,2025-12-14,Bearing replacement,David Martinez,Performed bearing replacement,Sensor module,2.3,9465.8,Completed successfully
+MCE-0069,2025-12-14,Bearing replacement,Emma Thompson,Performed emergency repair,Bearing kit,7.4,20252.47,Follow-up required
+MCE-0010,2025-12-11,Oil change,David Martinez,Performed emergency repair,Oil filter,3.1,18118.84,Completed successfully
+MCE-0029,2025-12-10,Cooling system service,James Chen,Performed blade adjustment,Oil filter,5.9,5964.36,Completed successfully
+MCE-0081,2025-12-10,Vibration sensor calibration,Emma Thompson,Performed emergency repair,Oil filter,0.7,10411.51,Completed successfully
+MCE-0065,2025-12-10,Emergency repair,Sarah Williams,Performed scheduled inspection,Blade components,4.0,9360.52,Completed successfully
+MCE-0021,2025-12-08,Scheduled inspection,David Martinez,Performed cooling system service,Oil filter,4.8,7374.2,Completed successfully
+MCE-0055,2025-12-04,Emergency repair,Michael O'Donnell,Performed vibration sensor calibration,Blade components,5.1,6634.38,Completed successfully
+MCE-0040,2025-12-03,Blade adjustment,Sarah Williams,Performed bearing replacement,Blade components,2.1,2537.07,Completed successfully
+MCE-0049,2025-12-02,Scheduled inspection,Michael O'Donnell,Performed emergency repair,None,5.0,1235.61,Follow-up required
+MCE-0079,2025-12-01,Vibration sensor calibration,Sarah Williams,Performed inverter firmware update,Blade components,2.7,15780.05,Follow-up required
+MCE-0086,2025-12-01,Bearing replacement,Emma Thompson,Performed oil change,None,1.6,4557.31,Completed successfully
+MCE-0017,2025-11-28,Scheduled inspection,Emma Thompson,Performed blade adjustment,Sensor module,2.9,5904.47,Completed successfully
+MCE-0050,2025-11-25,Emergency repair,Sarah Williams,Performed oil change,Bearing kit,1.3,13743.13,Completed successfully
+MCE-0006,2025-11-24,Blade adjustment,James Chen,Performed bearing replacement,Sensor module,6.9,13460.55,Completed successfully
+MCE-0081,2025-11-21,Blade adjustment,Sarah Williams,Performed emergency repair,Sensor module,7.4,15007.43,Completed successfully
+MCE-0063,2025-11-18,Vibration sensor calibration,David Martinez,Performed vibration sensor calibration,Blade components,3.1,11669.38,Completed successfully
+MCE-0048,2025-11-15,Inverter firmware update,James Chen,Performed oil change,Oil filter,7.2,15474.72,Completed successfully
+MCE-0094,2025-11-14,Blade adjustment,David Martinez,Performed cooling system service,Blade components,4.7,17270.07,Completed successfully
+MCE-0029,2025-11-13,Scheduled inspection,Michael O'Donnell,Performed blade adjustment,Oil filter,1.0,16237.97,Completed successfully
+MCE-0091,2025-11-13,Blade adjustment,Michael O'Donnell,Performed oil change,Sensor module,6.9,8107.47,Completed successfully
+MCE-0026,2025-11-13,Cooling system service,Emma Thompson,Performed vibration sensor calibration,Blade components,2.6,6740.7,Completed successfully
+MCE-0050,2025-11-11,Emergency repair,James Chen,Performed vibration sensor calibration,None,1.6,3438.78,Completed successfully
+MCE-0095,2025-11-08,Oil change,James Chen,Performed bearing replacement,Blade components,5.7,2770.08,Completed successfully
+MCE-0032,2025-11-07,Vibration sensor calibration,Michael O'Donnell,Performed oil change,Bearing kit,5.3,23391.14,Completed successfully
+MCE-0037,2025-11-07,Vibration sensor calibration,Emma Thompson,Performed inverter firmware update,Sensor module,7.7,14186.34,Completed successfully
+MCE-0059,2025-11-06,Oil change,James Chen,Performed oil change,Sensor module,2.8,16584.53,Completed successfully
+MCE-0098,2025-11-05,Oil change,David Martinez,Performed bearing replacement,None,2.5,696.35,Completed successfully
+MCE-0091,2025-11-03,Oil change,Michael O'Donnell,Performed bearing replacement,Blade components,2.0,12364.84,Completed successfully
+MCE-0065,2025-11-02,Emergency repair,Sarah Williams,Performed blade adjustment,None,0.6,7743.08,Completed successfully
+MCE-0010,2025-11-02,Scheduled inspection,James Chen,Performed oil change,None,6.9,4865.44,Completed successfully
+MCE-0022,2025-10-30,Oil change,Sarah Williams,Performed inverter firmware update,None,3.4,4938.76,Completed successfully
+MCE-0060,2025-10-25,Bearing replacement,James Chen,Performed inverter firmware update,Bearing kit,7.5,5641.49,Completed successfully
+MCE-0089,2025-10-25,Emergency repair,Emma Thompson,Performed oil change,Blade components,5.9,23625.43,Completed successfully
+MCE-0021,2025-10-24,Oil change,James Chen,Performed emergency repair,None,7.2,2078.08,Completed successfully
+MCE-0060,2025-10-22,Inverter firmware update,James Chen,Performed inverter firmware update,None,6.7,8552.09,Completed successfully
+MCE-0043,2025-10-21,Oil change,Sarah Williams,Performed bearing replacement,None,6.1,11837.64,Completed successfully
+MCE-0085,2025-10-20,Bearing replacement,Emma Thompson,Performed inverter firmware update,Blade components,7.4,16625.16,Completed successfully
+MCE-0060,2025-10-18,Scheduled inspection,Sarah Williams,Performed oil change,Bearing kit,8.0,5440.29,Completed successfully
+MCE-0085,2025-10-15,Oil change,Emma Thompson,Performed inverter firmware update,Bearing kit,3.8,1674.14,Follow-up required
+MCE-0008,2025-10-12,Emergency repair,David Martinez,Performed vibration sensor calibration,Oil filter,5.4,11718.49,Completed successfully
+MCE-0061,2025-10-11,Blade adjustment,Emma Thompson,Performed bearing replacement,None,1.3,1173.51,Completed successfully
+MCE-0068,2025-10-09,Inverter firmware update,Sarah Williams,Performed cooling system service,Bearing kit,2.7,21010.17,Completed successfully
+MCE-0052,2025-10-06,Scheduled inspection,David Martinez,Performed inverter firmware update,Sensor module,3.9,1079.07,Completed successfully
+MCE-0045,2025-10-06,Cooling system service,David Martinez,Performed bearing replacement,Blade components,5.9,1546.55,Completed successfully
+MCE-0074,2025-10-01,Blade adjustment,Sarah Williams,Performed bearing replacement,Bearing kit,3.2,6141.66,Completed successfully
+MCE-0100,2025-09-30,Cooling system service,Sarah Williams,Performed oil change,Sensor module,2.8,5625.13,Completed successfully
+MCE-0032,2025-09-27,Emergency repair,Michael O'Donnell,Performed scheduled inspection,None,7.6,12315.82,Completed successfully
+MCE-0047,2025-09-23,Emergency repair,Sarah Williams,Performed emergency repair,None,5.4,9299.03,Completed successfully
+MCE-0004,2025-09-20,Vibration sensor calibration,Emma Thompson,Performed oil change,Oil filter,4.8,20135.73,Completed successfully
+MCE-0077,2025-09-20,Emergency repair,Michael O'Donnell,Performed scheduled inspection,Bearing kit,5.9,15555.82,Follow-up required
+MCE-0050,2025-09-16,Emergency repair,James Chen,Performed emergency repair,Sensor module,2.8,10473.03,Completed successfully
+MCE-0083,2025-09-14,Vibration sensor calibration,Sarah Williams,Performed scheduled inspection,None,1.9,20334.82,Completed successfully
+MCE-0092,2025-09-10,Emergency repair,James Chen,Performed cooling system service,Bearing kit,4.1,6352.86,Completed successfully
+MCE-0013,2025-09-08,Oil change,James Chen,Performed cooling system service,Bearing kit,3.7,18149.31,Follow-up required
+MCE-0092,2025-09-06,Cooling system service,David Martinez,Performed scheduled inspection,Sensor module,3.1,18678.7,Completed successfully
+MCE-0026,2025-09-05,Emergency repair,James Chen,Performed emergency repair,Sensor module,5.7,20049.47,Completed successfully
+MCE-0043,2025-09-05,Oil change,Michael O'Donnell,Performed blade adjustment,Blade components,7.3,11570.4,Follow-up required
+MCE-0014,2025-09-05,Oil change,Emma Thompson,Performed emergency repair,None,2.2,20048.3,Completed successfully
+MCE-0003,2025-09-05,Emergency repair,Michael O'Donnell,Performed vibration sensor calibration,Blade components,0.8,23649.81,Completed successfully
+MCE-0064,2025-09-04,Scheduled inspection,Michael O'Donnell,Performed blade adjustment,Bearing kit,1.6,9523.37,Follow-up required
+MCE-0048,2025-09-02,Scheduled inspection,David Martinez,Performed emergency repair,Blade components,2.8,23891.41,Completed successfully
+MCE-0085,2025-09-02,Emergency repair,David Martinez,Performed bearing replacement,None,4.0,21570.79,Follow-up required
+MCE-0083,2025-08-28,Vibration sensor calibration,Emma Thompson,Performed scheduled inspection,None,3.4,5077.07,Follow-up required
+MCE-0020,2025-08-26,Blade adjustment,James Chen,Performed inverter firmware update,Sensor module,4.6,5134.24,Completed successfully
+MCE-0059,2025-08-23,Oil change,Emma Thompson,Performed blade adjustment,Bearing kit,6.9,11011.35,Completed successfully
+MCE-0044,2025-08-20,Blade adjustment,David Martinez,Performed emergency repair,Blade components,1.1,23658.87,Completed successfully
+MCE-0054,2025-08-19,Vibration sensor calibration,Emma Thompson,Performed inverter firmware update,None,2.3,1741.22,Completed successfully
+MCE-0077,2025-08-15,Blade adjustment,Sarah Williams,Performed cooling system service,Oil filter,4.5,4852.1,Completed successfully
+MCE-0039,2025-08-15,Emergency repair,James Chen,Performed scheduled inspection,Sensor module,7.4,13462.78,Completed successfully
+MCE-0089,2025-08-14,Oil change,Sarah Williams,Performed vibration sensor calibration,Bearing kit,0.7,22471.72,Completed successfully
+MCE-0005,2025-08-14,Vibration sensor calibration,Michael O'Donnell,Performed blade adjustment,Oil filter,4.7,20222.45,Completed successfully
+MCE-0056,2025-08-09,Oil change,David Martinez,Performed bearing replacement,Blade components,7.6,14015.68,Completed successfully
+MCE-0057,2025-08-04,Oil change,Sarah Williams,Performed oil change,Blade components,6.0,23168.14,Completed successfully
+MCE-0054,2025-08-03,Bearing replacement,Michael O'Donnell,Performed bearing replacement,None,6.5,1067.0,Completed successfully
+MCE-0094,2025-08-02,Vibration sensor calibration,Michael O'Donnell,Performed vibration sensor calibration,Blade components,2.0,5491.23,Completed successfully
+MCE-0052,2025-08-01,Oil change,Emma Thompson,Performed vibration sensor calibration,Sensor module,6.0,20157.18,Completed successfully
+MCE-0054,2025-07-29,Vibration sensor calibration,David Martinez,Performed oil change,Oil filter,1.5,12614.57,Completed successfully
+MCE-0074,2025-07-27,Blade adjustment,Michael O'Donnell,Performed cooling system service,Blade components,6.4,14972.17,Completed successfully
+MCE-0033,2025-07-26,Oil change,Michael O'Donnell,Performed emergency repair,Oil filter,2.8,12927.13,Completed successfully
+MCE-0001,2025-07-22,Oil change,Sarah Williams,Performed emergency repair,Oil filter,0.5,4851.99,Completed successfully
+MCE-0047,2025-07-09,Inverter firmware update,Michael O'Donnell,Performed inverter firmware update,None,1.4,18996.96,Completed successfully
+MCE-0002,2025-07-07,Blade adjustment,Michael O'Donnell,Performed blade adjustment,Bearing kit,7.2,19102.95,Completed successfully
+MCE-0074,2025-07-03,Inverter firmware update,Sarah Williams,Performed scheduled inspection,Blade components,6.9,12385.3,Completed successfully
+MCE-0031,2025-06-26,Scheduled inspection,James Chen,Performed blade adjustment,Oil filter,5.5,19882.0,Completed successfully
+MCE-0027,2025-06-24,Emergency repair,James Chen,Performed oil change,Oil filter,1.6,12559.63,Completed successfully
+MCE-0081,2025-06-23,Scheduled inspection,David Martinez,Performed inverter firmware update,Sensor module,0.8,11633.34,Completed successfully
+MCE-0033,2025-06-22,Cooling system service,David Martinez,Performed vibration sensor calibration,Blade components,6.9,16259.66,Completed successfully
+MCE-0064,2025-06-21,Oil change,David Martinez,Performed bearing replacement,None,7.3,8573.14,Follow-up required
+MCE-0042,2025-06-19,Scheduled inspection,David Martinez,Performed cooling system service,None,2.2,915.57,Completed successfully
+MCE-0030,2025-06-18,Inverter firmware update,Emma Thompson,Performed bearing replacement,Bearing kit,4.0,15567.43,Completed successfully
+MCE-0029,2025-06-18,Cooling system service,David Martinez,Performed oil change,None,4.6,13626.74,Completed successfully
+MCE-0069,2025-06-17,Emergency repair,Sarah Williams,Performed inverter firmware update,None,3.7,6420.82,Completed successfully
+MCE-0084,2025-06-17,Inverter firmware update,Michael O'Donnell,Performed vibration sensor calibration,None,0.7,9819.34,Completed successfully
+MCE-0031,2025-06-15,Vibration sensor calibration,Sarah Williams,Performed vibration sensor calibration,None,1.3,11134.31,Completed successfully
+MCE-0056,2025-06-11,Vibration sensor calibration,James Chen,Performed oil change,Sensor module,3.1,938.52,Completed successfully
+MCE-0093,2025-06-09,Vibration sensor calibration,James Chen,Performed emergency repair,None,0.5,7483.88,Completed successfully
+MCE-0036,2025-06-06,Emergency repair,Sarah Williams,Performed vibration sensor calibration,Bearing kit,0.7,15960.07,Completed successfully
+MCE-0004,2025-06-06,Vibration sensor calibration,Emma Thompson,Performed scheduled inspection,Blade components,0.9,10443.64,Completed successfully
+MCE-0047,2025-06-03,Bearing replacement,Emma Thompson,Performed inverter firmware update,Bearing kit,2.0,23704.22,Completed successfully
+MCE-0061,2025-06-02,Bearing replacement,Sarah Williams,Performed emergency repair,Sensor module,2.2,13487.67,Completed successfully
+MCE-0091,2025-06-02,Oil change,Michael O'Donnell,Performed blade adjustment,Bearing kit,5.4,12312.97,Completed successfully
+MCE-0098,2025-06-01,Scheduled inspection,Sarah Williams,Performed scheduled inspection,Blade components,1.4,4540.27,Completed successfully
+MCE-0018,2025-05-31,Vibration sensor calibration,David Martinez,Performed blade adjustment,Blade components,2.3,17789.34,Completed successfully
+MCE-0045,2025-05-31,Bearing replacement,David Martinez,Performed blade adjustment,Blade components,1.1,6591.18,Completed successfully
+MCE-0089,2025-05-31,Blade adjustment,Michael O'Donnell,Performed oil change,Bearing kit,4.4,21739.87,Completed successfully
+MCE-0023,2025-05-28,Vibration sensor calibration,Emma Thompson,Performed cooling system service,Bearing kit,3.8,10958.27,Completed successfully
+MCE-0047,2025-05-27,Emergency repair,Michael O'Donnell,Performed blade adjustment,Bearing kit,5.3,10908.05,Completed successfully
+MCE-0010,2025-05-27,Blade adjustment,Emma Thompson,Performed bearing replacement,None,8.0,22756.61,Completed successfully
+MCE-0001,2025-05-25,Emergency repair,James Chen,Performed cooling system service,Blade components,1.2,3107.19,Completed successfully
+MCE-0090,2025-05-23,Scheduled inspection,Michael O'Donnell,Performed vibration sensor calibration,Blade components,1.5,605.69,Completed successfully
+MCE-0019,2025-05-22,Scheduled inspection,Sarah Williams,Performed scheduled inspection,Bearing kit,2.8,14383.78,Completed successfully
+MCE-0045,2025-05-22,Emergency repair,Michael O'Donnell,Performed oil change,Sensor module,3.1,6462.06,Completed successfully
+MCE-0058,2025-05-22,Blade adjustment,Michael O'Donnell,Performed inverter firmware update,Oil filter,2.8,8027.34,Completed successfully
+MCE-0058,2025-05-21,Emergency repair,Sarah Williams,Performed vibration sensor calibration,None,7.9,12980.0,Completed successfully
+MCE-0092,2025-05-16,Blade adjustment,Michael O'Donnell,Performed bearing replacement,Bearing kit,5.7,12025.68,Completed successfully
+MCE-0052,2025-05-12,Bearing replacement,Emma Thompson,Performed inverter firmware update,Bearing kit,0.9,14496.37,Completed successfully
+MCE-0024,2025-05-10,Scheduled inspection,Sarah Williams,Performed inverter firmware update,None,1.0,24319.03,Completed successfully
+MCE-0015,2025-05-09,Emergency repair,Emma Thompson,Performed scheduled inspection,None,7.7,17538.6,Completed successfully
+MCE-0073,2025-05-08,Oil change,Emma Thompson,Performed emergency repair,Bearing kit,5.8,2946.93,Completed successfully
+MCE-0046,2025-05-05,Blade adjustment,Emma Thompson,Performed emergency repair,Oil filter,3.9,21453.88,Completed successfully
+MCE-0028,2025-05-05,Scheduled inspection,Michael O'Donnell,Performed oil change,Oil filter,4.9,3367.13,Completed successfully
+MCE-0082,2025-05-02,Oil change,Sarah Williams,Performed vibration sensor calibration,None,7.2,12146.68,Completed successfully
+MCE-0045,2025-05-02,Inverter firmware update,Sarah Williams,Performed emergency repair,Oil filter,3.5,22691.53,Completed successfully
+MCE-0099,2025-04-29,Scheduled inspection,Michael O'Donnell,Performed inverter firmware update,Blade components,7.7,7397.14,Completed successfully
+MCE-0096,2025-04-28,Blade adjustment,James Chen,Performed emergency repair,Bearing kit,2.7,18774.5,Completed successfully
+MCE-0100,2025-04-24,Inverter firmware update,David Martinez,Performed vibration sensor calibration,Bearing kit,3.9,7760.15,Completed successfully
+MCE-0074,2025-04-23,Inverter firmware update,Emma Thompson,Performed oil change,Sensor module,5.7,6657.44,Completed successfully
+MCE-0009,2025-04-19,Bearing replacement,James Chen,Performed cooling system service,Blade components,3.8,22945.68,Completed successfully
+MCE-0087,2025-04-17,Inverter firmware update,Sarah Williams,Performed cooling system service,Oil filter,3.6,954.9,Follow-up required
+MCE-0007,2025-04-17,Cooling system service,Michael O'Donnell,Performed vibration sensor calibration,None,2.8,11443.77,Completed successfully
+MCE-0027,2025-04-14,Bearing replacement,Emma Thompson,Performed oil change,None,5.6,17284.93,Completed successfully
+MCE-0048,2025-04-14,Inverter firmware update,David Martinez,Performed emergency repair,Bearing kit,4.9,18516.78,Completed successfully
+MCE-0051,2025-04-14,Cooling system service,Sarah Williams,Performed blade adjustment,Blade components,2.5,2515.91,Completed successfully
+MCE-0063,2025-04-12,Vibration sensor calibration,James Chen,Performed scheduled inspection,None,7.5,5830.85,Completed successfully
+MCE-0005,2025-04-09,Inverter firmware update,Sarah Williams,Performed vibration sensor calibration,Oil filter,7.4,18601.68,Completed successfully
+MCE-0026,2025-04-08,Blade adjustment,Emma Thompson,Performed blade adjustment,Oil filter,3.9,19350.81,Follow-up required
+MCE-0044,2025-04-07,Vibration sensor calibration,Emma Thompson,Performed blade adjustment,Oil filter,6.7,9654.89,Completed successfully
+MCE-0002,2025-04-04,Blade adjustment,Sarah Williams,Performed oil change,None,4.2,21336.92,Completed successfully
+MCE-0049,2025-04-04,Vibration sensor calibration,Emma Thompson,Performed oil change,Bearing kit,7.5,4210.44,Follow-up required
+MCE-0036,2025-04-04,Emergency repair,Michael O'Donnell,Performed scheduled inspection,Bearing kit,0.5,1625.14,Completed successfully
+MCE-0094,2025-04-03,Oil change,James Chen,Performed scheduled inspection,Oil filter,4.9,10144.58,Completed successfully
+MCE-0090,2025-03-31,Scheduled inspection,David Martinez,Performed oil change,Oil filter,3.0,6187.12,Completed successfully
+MCE-0027,2025-03-31,Cooling system service,James Chen,Performed inverter firmware update,Sensor module,1.8,8299.32,Completed successfully
+MCE-0029,2025-03-30,Bearing replacement,Sarah Williams,Performed bearing replacement,Sensor module,6.1,13028.36,Completed successfully
+MCE-0012,2025-03-28,Oil change,Sarah Williams,Performed scheduled inspection,Bearing kit,6.2,7654.9,Completed successfully
+MCE-0032,2025-03-28,Bearing replacement,David Martinez,Performed blade adjustment,Sensor module,7.2,11796.62,Completed successfully
+MCE-0100,2025-03-25,Vibration sensor calibration,Emma Thompson,Performed scheduled inspection,Oil filter,2.0,20094.54,Follow-up required
+MCE-0088,2025-03-24,Blade adjustment,Sarah Williams,Performed cooling system service,Blade components,6.0,21696.45,Completed successfully
+MCE-0087,2025-03-21,Blade adjustment,Emma Thompson,Performed cooling system service,Oil filter,0.6,14007.33,Completed successfully
+MCE-0011,2025-03-21,Vibration sensor calibration,James Chen,Performed cooling system service,Blade components,2.2,24087.27,Completed successfully
+MCE-0076,2025-03-15,Oil change,Sarah Williams,Performed cooling system service,Bearing kit,6.2,13565.45,Completed successfully
+MCE-0022,2025-03-14,Blade adjustment,Sarah Williams,Performed oil change,Blade components,8.0,15778.41,Completed successfully
+MCE-0033,2025-03-08,Cooling system service,Michael O'Donnell,Performed blade adjustment,Blade components,2.5,11161.31,Completed successfully
+MCE-0095,2025-03-07,Vibration sensor calibration,Sarah Williams,Performed oil change,Bearing kit,1.3,16576.85,Follow-up required
+MCE-0009,2025-03-05,Scheduled inspection,David Martinez,Performed vibration sensor calibration,Sensor module,7.1,20598.72,Completed successfully
+MCE-0071,2025-03-01,Oil change,James Chen,Performed cooling system service,Sensor module,7.1,6335.82,Follow-up required
+MCE-0075,2025-03-01,Cooling system service,Emma Thompson,Performed inverter firmware update,None,2.6,22143.8,Completed successfully
+MCE-0053,2025-02-28,Blade adjustment,Emma Thompson,Performed oil change,Bearing kit,3.2,8556.91,Completed successfully
+MCE-0083,2025-02-22,Emergency repair,Emma Thompson,Performed scheduled inspection,Sensor module,6.5,16123.17,Completed successfully
+MCE-0018,2025-02-18,Oil change,Sarah Williams,Performed scheduled inspection,Blade components,3.0,10793.14,Completed successfully
+MCE-0035,2025-02-18,Bearing replacement,James Chen,Performed oil change,None,1.5,11737.68,Completed successfully
+MCE-0031,2025-02-18,Scheduled inspection,James Chen,Performed emergency repair,None,4.5,11088.79,Completed successfully
+MCE-0028,2025-02-16,Inverter firmware update,Sarah Williams,Performed scheduled inspection,None,3.3,8713.0,Completed successfully
+MCE-0086,2025-02-12,Inverter firmware update,Michael O'Donnell,Performed cooling system service,Bearing kit,5.5,971.39,Completed successfully
+MCE-0088,2025-02-12,Oil change,James Chen,Performed inverter firmware update,Oil filter,5.0,9980.31,Completed successfully
+MCE-0013,2025-02-11,Vibration sensor calibration,James Chen,Performed inverter firmware update,None,2.2,20790.21,Completed successfully
+MCE-0076,2025-02-10,Scheduled inspection,James Chen,Performed vibration sensor calibration,None,1.8,17493.79,Follow-up required
+MCE-0040,2025-02-10,Bearing replacement,Michael O'Donnell,Performed oil change,None,4.6,5309.33,Completed successfully
+MCE-0069,2025-02-02,Oil change,James Chen,Performed oil change,None,8.0,24606.7,Completed successfully
+MCE-0030,2025-01-30,Bearing replacement,David Martinez,Performed oil change,None,6.6,4886.62,Completed successfully
+MCE-0076,2025-01-30,Scheduled inspection,James Chen,Performed oil change,Oil filter,2.3,7201.41,Completed successfully
+MCE-0037,2025-01-29,Bearing replacement,David Martinez,Performed scheduled inspection,Sensor module,2.3,23330.82,Completed successfully
+MCE-0028,2025-01-27,Vibration sensor calibration,Emma Thompson,Performed blade adjustment,Oil filter,7.6,15144.45,Completed successfully
+MCE-0043,2025-01-26,Blade adjustment,James Chen,Performed blade adjustment,Blade components,4.3,18923.64,Completed successfully
+MCE-0051,2025-01-25,Vibration sensor calibration,Michael O'Donnell,Performed cooling system service,Bearing kit,2.2,3698.47,Completed successfully
+MCE-0012,2025-01-25,Bearing replacement,Emma Thompson,Performed vibration sensor calibration,Sensor module,4.5,6827.63,Completed successfully
+MCE-0025,2025-01-25,Inverter firmware update,James Chen,Performed vibration sensor calibration,Sensor module,5.3,6071.06,Completed successfully
+MCE-0069,2025-01-21,Vibration sensor calibration,Emma Thompson,Performed oil change,Sensor module,7.4,9730.01,Completed successfully
+MCE-0038,2025-01-21,Bearing replacement,James Chen,Performed emergency repair,Oil filter,7.4,16182.27,Completed successfully
+MCE-0026,2025-01-18,Bearing replacement,Sarah Williams,Performed bearing replacement,Bearing kit,7.8,3421.03,Completed successfully
+MCE-0059,2025-01-18,Blade adjustment,James Chen,Performed bearing replacement,None,0.9,15476.87,Completed successfully
+MCE-0098,2025-01-17,Vibration sensor calibration,James Chen,Performed scheduled inspection,Blade components,5.9,11044.38,Completed successfully
+MCE-0004,2025-01-13,Blade adjustment,David Martinez,Performed vibration sensor calibration,Sensor module,0.6,16356.97,Completed successfully
+MCE-0005,2025-01-11,Oil change,Sarah Williams,Performed vibration sensor calibration,Oil filter,3.8,20933.57,Follow-up required
+MCE-0056,2025-01-05,Vibration sensor calibration,Michael O'Donnell,Performed oil change,Oil filter,3.1,11633.63,Follow-up required
+MCE-0069,2025-01-02,Emergency repair,James Chen,Performed cooling system service,Bearing kit,7.6,7634.53,Completed successfully
+MCE-0063,2025-01-02,Oil change,Sarah Williams,Performed vibration sensor calibration,Oil filter,1.7,20693.89,Completed successfully
+MCE-0009,2024-12-31,Emergency repair,James Chen,Performed bearing replacement,Sensor module,7.3,16319.78,Follow-up required
+MCE-0008,2024-12-30,Blade adjustment,Sarah Williams,Performed vibration sensor calibration,Bearing kit,2.8,8260.0,Completed successfully
+MCE-0002,2024-12-29,Scheduled inspection,Sarah Williams,Performed scheduled inspection,Oil filter,0.8,5592.51,Follow-up required
+MCE-0078,2024-12-28,Emergency repair,Sarah Williams,Performed emergency repair,None,5.4,10014.86,Completed successfully
+MCE-0072,2024-12-25,Bearing replacement,Emma Thompson,Performed emergency repair,Sensor module,4.9,7307.45,Follow-up required
+MCE-0080,2024-12-25,Vibration sensor calibration,Michael O'Donnell,Performed bearing replacement,Bearing kit,7.8,578.72,Completed successfully
+MCE-0010,2024-12-25,Vibration sensor calibration,David Martinez,Performed cooling system service,Sensor module,5.8,13193.39,Completed successfully
+MCE-0078,2024-12-21,Bearing replacement,Emma Thompson,Performed cooling system service,Sensor module,7.2,7548.78,Completed successfully
+MCE-0098,2024-12-21,Emergency repair,Michael O'Donnell,Performed emergency repair,Blade components,3.3,21507.97,Completed successfully
+MCE-0012,2024-12-20,Cooling system service,Emma Thompson,Performed inverter firmware update,Oil filter,1.6,24502.11,Completed successfully
+MCE-0040,2024-12-19,Blade adjustment,David Martinez,Performed oil change,None,7.5,13068.01,Completed successfully
+MCE-0052,2024-12-18,Vibration sensor calibration,David Martinez,Performed oil change,Oil filter,6.4,24501.36,Completed successfully
+MCE-0058,2024-12-11,Inverter firmware update,Emma Thompson,Performed oil change,Sensor module,2.3,14179.19,Completed successfully
+MCE-0020,2024-12-11,Inverter firmware update,Sarah Williams,Performed blade adjustment,None,1.7,16933.34,Completed successfully
+MCE-0035,2024-12-08,Vibration sensor calibration,David Martinez,Performed bearing replacement,None,2.7,14814.86,Follow-up required
+MCE-0018,2024-12-08,Vibration sensor calibration,Michael O'Donnell,Performed blade adjustment,Bearing kit,6.9,15545.0,Completed successfully
+MCE-0071,2024-12-08,Oil change,James Chen,Performed oil change,Oil filter,3.2,1498.06,Completed successfully
+MCE-0043,2024-12-08,Vibration sensor calibration,Emma Thompson,Performed oil change,Blade components,8.0,24560.04,Completed successfully
+MCE-0067,2024-12-08,Oil change,James Chen,Performed oil change,Oil filter,7.6,4107.01,Completed successfully
+MCE-0066,2024-12-07,Oil change,Emma Thompson,Performed bearing replacement,Oil filter,7.6,5602.02,Completed successfully
+MCE-0072,2024-12-04,Blade adjustment,Sarah Williams,Performed blade adjustment,Oil filter,2.7,6534.1,Completed successfully
+MCE-0075,2024-12-03,Blade adjustment,Sarah Williams,Performed vibration sensor calibration,Sensor module,1.2,21878.87,Completed successfully
+MCE-0002,2024-11-28,Oil change,David Martinez,Performed bearing replacement,Bearing kit,3.7,23860.41,Completed successfully
+MCE-0049,2024-11-22,Oil change,Emma Thompson,Performed bearing replacement,Bearing kit,4.5,15735.5,Follow-up required
+MCE-0082,2024-11-14,Cooling system service,David Martinez,Performed scheduled inspection,None,4.0,5528.53,Completed successfully
+MCE-0053,2024-11-14,Scheduled inspection,James Chen,Performed scheduled inspection,Bearing kit,4.6,9734.13,Completed successfully
+MCE-0004,2024-11-14,Bearing replacement,James Chen,Performed inverter firmware update,Oil filter,6.8,18675.91,Completed successfully
+MCE-0019,2024-11-13,Inverter firmware update,James Chen,Performed blade adjustment,Oil filter,1.3,695.41,Completed successfully
+MCE-0079,2024-11-12,Inverter firmware update,Michael O'Donnell,Performed vibration sensor calibration,Sensor module,6.5,12774.09,Completed successfully
+MCE-0035,2024-11-07,Scheduled inspection,David Martinez,Performed blade adjustment,Bearing kit,3.0,7975.47,Completed successfully
+MCE-0010,2024-11-06,Cooling system service,Sarah Williams,Performed oil change,Oil filter,3.7,2634.14,Completed successfully
+MCE-0069,2024-11-05,Scheduled inspection,Emma Thompson,Performed cooling system service,Sensor module,1.0,22083.92,Completed successfully
+MCE-0003,2024-11-01,Oil change,James Chen,Performed scheduled inspection,Oil filter,7.9,2696.64,Completed successfully
+MCE-0051,2024-10-30,Inverter firmware update,Michael O'Donnell,Performed oil change,Oil filter,3.2,2774.65,Completed successfully
+MCE-0080,2024-10-30,Vibration sensor calibration,Sarah Williams,Performed vibration sensor calibration,Blade components,4.8,7381.41,Completed successfully
+MCE-0010,2024-10-27,Blade adjustment,David Martinez,Performed oil change,Bearing kit,2.7,21395.17,Completed successfully
+MCE-0074,2024-10-23,Scheduled inspection,James Chen,Performed oil change,Blade components,7.3,8227.42,Completed successfully
+MCE-0023,2024-10-21,Scheduled inspection,Sarah Williams,Performed blade adjustment,Sensor module,3.6,11303.84,Completed successfully
+MCE-0100,2024-10-20,Bearing replacement,Emma Thompson,Performed emergency repair,Bearing kit,2.9,1822.23,Completed successfully
+MCE-0024,2024-10-19,Inverter firmware update,Emma Thompson,Performed oil change,Oil filter,0.7,7135.9,Completed successfully
+MCE-0072,2024-10-19,Bearing replacement,Sarah Williams,Performed inverter firmware update,Sensor module,1.2,22052.74,Follow-up required
+MCE-0038,2024-10-17,Blade adjustment,Michael O'Donnell,Performed scheduled inspection,None,6.7,24251.5,Completed successfully
+MCE-0068,2024-10-15,Scheduled inspection,Michael O'Donnell,Performed oil change,Bearing kit,6.8,23906.17,Follow-up required
+MCE-0084,2024-10-14,Emergency repair,James Chen,Performed emergency repair,Bearing kit,4.5,20647.78,Completed successfully
+MCE-0028,2024-10-14,Inverter firmware update,Sarah Williams,Performed emergency repair,None,4.1,19972.36,Completed successfully
+MCE-0080,2024-10-13,Vibration sensor calibration,David Martinez,Performed bearing replacement,Sensor module,5.4,22115.57,Follow-up required
+MCE-0048,2024-10-12,Blade adjustment,Emma Thompson,Performed inverter firmware update,None,3.9,20820.3,Follow-up required
+MCE-0084,2024-10-11,Bearing replacement,Sarah Williams,Performed cooling system service,Sensor module,5.7,16173.47,Completed successfully
+MCE-0036,2024-10-06,Emergency repair,Michael O'Donnell,Performed bearing replacement,Blade components,3.1,24614.08,Completed successfully
+MCE-0098,2024-10-06,Scheduled inspection,Sarah Williams,Performed cooling system service,Oil filter,0.7,6926.16,Completed successfully
+MCE-0086,2024-09-30,Bearing replacement,Emma Thompson,Performed scheduled inspection,Oil filter,8.0,10821.34,Completed successfully
+MCE-0049,2024-09-23,Oil change,Michael O'Donnell,Performed scheduled inspection,Bearing kit,6.5,5796.6,Completed successfully
+MCE-0031,2024-09-21,Blade adjustment,David Martinez,Performed scheduled inspection,Sensor module,4.6,4465.05,Completed successfully
+MCE-0046,2024-09-17,Bearing replacement,Michael O'Donnell,Performed vibration sensor calibration,None,2.3,12439.91,Completed successfully
+MCE-0089,2024-09-16,Bearing replacement,Michael O'Donnell,Performed blade adjustment,Blade components,4.5,5145.19,Completed successfully
+MCE-0020,2024-09-12,Blade adjustment,Michael O'Donnell,Performed emergency repair,Sensor module,1.9,10461.15,Completed successfully
+MCE-0062,2024-09-07,Emergency repair,Emma Thompson,Performed bearing replacement,Blade components,2.0,8801.78,Completed successfully
+MCE-0086,2024-09-03,Cooling system service,David Martinez,Performed emergency repair,Bearing kit,1.1,768.32,Completed successfully
+MCE-0050,2024-09-02,Cooling system service,Michael O'Donnell,Performed vibration sensor calibration,Bearing kit,8.0,3218.5,Completed successfully
+MCE-0027,2024-08-31,Blade adjustment,Sarah Williams,Performed emergency repair,Oil filter,1.7,9337.56,Completed successfully
+MCE-0004,2024-08-31,Inverter firmware update,James Chen,Performed emergency repair,None,3.4,5310.51,Completed successfully
+MCE-0052,2024-08-30,Emergency repair,David Martinez,Performed vibration sensor calibration,Blade components,5.6,3609.09,Completed successfully
+MCE-0079,2024-08-29,Emergency repair,David Martinez,Performed scheduled inspection,Oil filter,3.2,7688.84,Completed successfully
+MCE-0063,2024-08-24,Oil change,Michael O'Donnell,Performed blade adjustment,Bearing kit,5.2,21709.71,Completed successfully
+MCE-0071,2024-08-22,Scheduled inspection,David Martinez,Performed blade adjustment,Oil filter,7.2,9038.15,Completed successfully
+MCE-0054,2024-08-22,Cooling system service,David Martinez,Performed oil change,Blade components,7.7,8071.63,Completed successfully
+MCE-0067,2024-08-21,Oil change,Sarah Williams,Performed emergency repair,Oil filter,7.0,18864.69,Completed successfully
+MCE-0055,2024-08-20,Scheduled inspection,James Chen,Performed cooling system service,Oil filter,2.9,6359.75,Completed successfully
+MCE-0018,2024-08-16,Inverter firmware update,Sarah Williams,Performed inverter firmware update,Sensor module,6.4,19896.82,Completed successfully
+MCE-0080,2024-08-16,Inverter firmware update,Sarah Williams,Performed emergency repair,Bearing kit,3.5,9691.82,Completed successfully
+MCE-0084,2024-08-15,Oil change,Emma Thompson,Performed inverter firmware update,Oil filter,0.7,18090.1,Completed successfully
+MCE-0086,2024-08-11,Inverter firmware update,Michael O'Donnell,Performed blade adjustment,Sensor module,6.5,9846.39,Completed successfully
+MCE-0046,2024-08-09,Scheduled inspection,Michael O'Donnell,Performed bearing replacement,Bearing kit,1.9,14225.3,Follow-up required
+MCE-0008,2024-08-08,Oil change,Emma Thompson,Performed bearing replacement,Sensor module,0.9,16858.6,Completed successfully
+MCE-0032,2024-08-07,Blade adjustment,James Chen,Performed oil change,None,5.1,23934.8,Completed successfully
+MCE-0055,2024-08-06,Scheduled inspection,Sarah Williams,Performed bearing replacement,Blade components,1.6,3875.43,Completed successfully
+MCE-0085,2024-07-27,Blade adjustment,David Martinez,Performed inverter firmware update,Oil filter,6.6,17585.68,Completed successfully
+MCE-0055,2024-07-24,Vibration sensor calibration,Emma Thompson,Performed emergency repair,Oil filter,5.9,2839.52,Completed successfully
+MCE-0012,2024-07-19,Bearing replacement,Sarah Williams,Performed scheduled inspection,None,5.5,6113.32,Completed successfully
+MCE-0018,2024-07-19,Emergency repair,Michael O'Donnell,Performed blade adjustment,Blade components,7.1,21988.3,Completed successfully
+MCE-0064,2024-07-18,Emergency repair,Emma Thompson,Performed inverter firmware update,Oil filter,4.2,20596.44,Completed successfully
+MCE-0087,2024-07-17,Vibration sensor calibration,Emma Thompson,Performed oil change,Oil filter,7.7,6155.12,Follow-up required
+MCE-0059,2024-07-17,Inverter firmware update,James Chen,Performed bearing replacement,Bearing kit,5.5,15505.25,Completed successfully
+MCE-0079,2024-07-15,Vibration sensor calibration,James Chen,Performed emergency repair,Sensor module,6.9,2952.13,Completed successfully
+MCE-0082,2024-07-08,Bearing replacement,David Martinez,Performed scheduled inspection,Blade components,3.9,16352.55,Completed successfully
+MCE-0005,2024-07-07,Emergency repair,Sarah Williams,Performed cooling system service,Bearing kit,3.2,6278.33,Completed successfully
+MCE-0095,2024-07-06,Blade adjustment,James Chen,Performed bearing replacement,Oil filter,5.6,22806.48,Completed successfully
+MCE-0034,2024-07-01,Vibration sensor calibration,Michael O'Donnell,Performed bearing replacement,Blade components,2.0,15402.43,Completed successfully
+MCE-0079,2024-06-26,Blade adjustment,Emma Thompson,Performed inverter firmware update,Sensor module,6.3,2405.35,Completed successfully
+MCE-0042,2024-06-25,Oil change,Michael O'Donnell,Performed vibration sensor calibration,Sensor module,6.0,13107.69,Completed successfully
+MCE-0063,2024-06-23,Inverter firmware update,David Martinez,Performed bearing replacement,Oil filter,0.7,7884.98,Completed successfully
+MCE-0056,2024-06-22,Scheduled inspection,Sarah Williams,Performed vibration sensor calibration,Oil filter,0.8,8992.94,Completed successfully
+MCE-0035,2024-06-20,Scheduled inspection,James Chen,Performed oil change,Sensor module,4.5,6690.24,Completed successfully
+MCE-0035,2024-06-20,Cooling system service,James Chen,Performed oil change,Blade components,6.5,21958.04,Completed successfully
+MCE-0036,2024-06-14,Bearing replacement,David Martinez,Performed inverter firmware update,Blade components,1.9,11237.74,Completed successfully
+MCE-0087,2024-06-12,Blade adjustment,Emma Thompson,Performed cooling system service,Oil filter,6.8,22339.23,Completed successfully
+MCE-0036,2024-06-11,Vibration sensor calibration,Emma Thompson,Performed scheduled inspection,Blade components,6.2,22892.52,Completed successfully
+MCE-0001,2024-06-10,Oil change,Sarah Williams,Performed oil change,Oil filter,0.9,2672.67,Completed successfully
+MCE-0040,2024-06-08,Bearing replacement,Emma Thompson,Performed bearing replacement,Sensor module,4.9,17707.03,Completed successfully
+MCE-0029,2024-06-03,Scheduled inspection,James Chen,Performed bearing replacement,Blade components,3.0,14128.66,Follow-up required
+MCE-0049,2024-06-02,Oil change,Sarah Williams,Performed inverter firmware update,Bearing kit,2.5,22306.81,Completed successfully
+MCE-0033,2024-06-01,Cooling system service,Emma Thompson,Performed oil change,Bearing kit,7.9,20636.76,Completed successfully
+MCE-0021,2024-05-28,Blade adjustment,Emma Thompson,Performed vibration sensor calibration,Blade components,6.1,17032.53,Completed successfully
+MCE-0019,2024-05-27,Cooling system service,Sarah Williams,Performed inverter firmware update,None,3.3,12079.13,Completed successfully
+MCE-0022,2024-05-26,Blade adjustment,Michael O'Donnell,Performed scheduled inspection,Oil filter,2.2,19951.51,Completed successfully
+MCE-0027,2024-05-26,Emergency repair,James Chen,Performed inverter firmware update,Blade components,6.8,12727.85,Completed successfully
+MCE-0075,2024-05-25,Emergency repair,Emma Thompson,Performed scheduled inspection,None,4.2,9863.99,Completed successfully
+MCE-0083,2024-05-25,Oil change,Sarah Williams,Performed bearing replacement,None,0.9,16373.84,Completed successfully
+MCE-0034,2024-05-25,Bearing replacement,Emma Thompson,Performed emergency repair,Oil filter,2.7,11729.22,Completed successfully
+MCE-0089,2024-05-20,Blade adjustment,James Chen,Performed inverter firmware update,Blade components,1.0,7862.72,Follow-up required
+MCE-0012,2024-05-20,Bearing replacement,David Martinez,Performed cooling system service,Oil filter,0.6,16669.79,Completed successfully
+MCE-0080,2024-05-20,Emergency repair,Emma Thompson,Performed bearing replacement,Sensor module,2.2,12877.13,Completed successfully
+MCE-0057,2024-05-19,Oil change,Sarah Williams,Performed emergency repair,None,7.9,21377.19,Completed successfully
+MCE-0049,2024-05-19,Vibration sensor calibration,David Martinez,Performed vibration sensor calibration,Bearing kit,5.7,5770.25,Completed successfully
+MCE-0100,2024-05-15,Emergency repair,David Martinez,Performed inverter firmware update,Bearing kit,5.8,24231.41,Completed successfully
+MCE-0015,2024-05-12,Blade adjustment,James Chen,Performed bearing replacement,None,3.0,5115.21,Completed successfully
+MCE-0010,2024-05-11,Oil change,Michael O'Donnell,Performed emergency repair,Oil filter,1.4,1148.51,Completed successfully
+MCE-0029,2024-05-11,Inverter firmware update,Sarah Williams,Performed scheduled inspection,Bearing kit,6.5,4852.7,Completed successfully
+MCE-0016,2024-05-11,Vibration sensor calibration,Emma Thompson,Performed vibration sensor calibration,Sensor module,4.8,15030.6,Completed successfully
+MCE-0041,2024-05-09,Blade adjustment,Sarah Williams,Performed vibration sensor calibration,Oil filter,4.9,14602.0,Completed successfully
+MCE-0001,2024-05-04,Emergency repair,Emma Thompson,Performed oil change,Bearing kit,3.4,13160.72,Completed successfully
+MCE-0045,2024-05-03,Scheduled inspection,Emma Thompson,Performed scheduled inspection,Sensor module,2.0,16996.7,Follow-up required
+MCE-0047,2024-04-25,Blade adjustment,James Chen,Performed vibration sensor calibration,Blade components,6.5,10750.53,Completed successfully
+MCE-0009,2024-04-23,Oil change,Sarah Williams,Performed cooling system service,Sensor module,6.0,4817.35,Completed successfully
+MCE-0005,2024-04-18,Inverter firmware update,Sarah Williams,Performed bearing replacement,Blade components,6.9,16087.69,Completed successfully
+MCE-0039,2024-04-17,Cooling system service,David Martinez,Performed cooling system service,Oil filter,1.9,16880.54,Completed successfully
+MCE-0080,2024-04-17,Scheduled inspection,James Chen,Performed blade adjustment,None,4.5,6915.33,Completed successfully
+MCE-0093,2024-04-17,Emergency repair,Michael O'Donnell,Performed inverter firmware update,Blade components,3.4,9460.76,Completed successfully
+MCE-0070,2024-04-09,Bearing replacement,David Martinez,Performed blade adjustment,Blade components,2.2,11819.42,Completed successfully
+MCE-0038,2024-04-08,Cooling system service,David Martinez,Performed blade adjustment,Blade components,3.8,4682.7,Completed successfully
+MCE-0040,2024-04-05,Blade adjustment,Michael O'Donnell,Performed blade adjustment,None,6.6,19714.1,Follow-up required
+MCE-0067,2024-04-04,Emergency repair,Emma Thompson,Performed inverter firmware update,Bearing kit,2.9,17204.38,Completed successfully
+MCE-0090,2024-04-04,Vibration sensor calibration,Michael O'Donnell,Performed oil change,Oil filter,2.7,778.23,Completed successfully
+MCE-0072,2024-04-02,Scheduled inspection,Sarah Williams,Performed vibration sensor calibration,Blade components,4.3,14082.41,Completed successfully
+MCE-0099,2024-03-31,Blade adjustment,David Martinez,Performed bearing replacement,Bearing kit,4.7,15950.23,Completed successfully
+MCE-0064,2024-03-30,Blade adjustment,Michael O'Donnell,Performed bearing replacement,Bearing kit,0.5,918.36,Completed successfully
+MCE-0027,2024-03-28,Scheduled inspection,Michael O'Donnell,Performed emergency repair,Bearing kit,6.5,752.95,Completed successfully
+MCE-0006,2024-03-28,Emergency repair,Emma Thompson,Performed inverter firmware update,Sensor module,7.6,9332.07,Completed successfully
+MCE-0097,2024-03-28,Scheduled inspection,Emma Thompson,Performed blade adjustment,Bearing kit,3.5,6348.3,Completed successfully
+MCE-0072,2024-03-27,Cooling system service,James Chen,Performed bearing replacement,Blade components,7.1,6042.93,Completed successfully
+MCE-0072,2024-03-23,Vibration sensor calibration,Michael O'Donnell,Performed oil change,Bearing kit,1.4,6446.81,Completed successfully
+MCE-0090,2024-03-23,Emergency repair,Sarah Williams,Performed inverter firmware update,Bearing kit,2.8,19987.37,Completed successfully
+MCE-0015,2024-03-20,Oil change,Sarah Williams,Performed bearing replacement,Oil filter,0.8,3465.76,Follow-up required
+MCE-0049,2024-03-19,Blade adjustment,Emma Thompson,Performed vibration sensor calibration,Oil filter,1.0,9329.58,Completed successfully
+MCE-0018,2024-03-19,Vibration sensor calibration,Michael O'Donnell,Performed inverter firmware update,None,5.4,6576.34,Completed successfully
+MCE-0059,2024-03-15,Inverter firmware update,David Martinez,Performed oil change,Bearing kit,4.5,7292.07,Completed successfully
+MCE-0012,2024-03-14,Blade adjustment,Michael O'Donnell,Performed scheduled inspection,None,2.3,22478.68,Completed successfully
+MCE-0096,2024-03-11,Blade adjustment,David Martinez,Performed inverter firmware update,None,7.1,12404.98,Completed successfully
+MCE-0001,2024-03-10,Blade adjustment,Emma Thompson,Performed blade adjustment,Bearing kit,4.6,9698.22,Completed successfully
+MCE-0085,2024-03-09,Emergency repair,Sarah Williams,Performed scheduled inspection,Sensor module,2.4,15377.83,Completed successfully
+MCE-0042,2024-03-08,Oil change,James Chen,Performed bearing replacement,Blade components,5.0,16757.49,Completed successfully
+MCE-0013,2024-03-05,Cooling system service,Emma Thompson,Performed inverter firmware update,Bearing kit,4.8,16927.87,Completed successfully
+MCE-0037,2024-03-01,Vibration sensor calibration,Emma Thompson,Performed oil change,Sensor module,7.5,19318.9,Completed successfully
+MCE-0003,2024-02-29,Blade adjustment,Emma Thompson,Performed emergency repair,None,3.2,22625.79,Follow-up required
+MCE-0067,2024-02-29,Inverter firmware update,Sarah Williams,Performed vibration sensor calibration,Bearing kit,4.9,21635.05,Completed successfully
+MCE-0012,2024-02-26,Oil change,Sarah Williams,Performed oil change,Sensor module,3.5,9737.16,Completed successfully
+MCE-0039,2024-02-25,Oil change,Michael O'Donnell,Performed bearing replacement,None,1.4,12807.75,Completed successfully
+MCE-0067,2024-02-24,Scheduled inspection,David Martinez,Performed oil change,None,2.0,10743.94,Follow-up required
+MCE-0046,2024-02-24,Bearing replacement,James Chen,Performed vibration sensor calibration,Sensor module,2.3,23934.71,Completed successfully
+MCE-0092,2024-02-24,Bearing replacement,Michael O'Donnell,Performed cooling system service,None,1.9,6766.93,Completed successfully
+MCE-0023,2024-02-23,Cooling system service,Sarah Williams,Performed scheduled inspection,Oil filter,2.6,9569.78,Follow-up required
+MCE-0070,2024-02-22,Scheduled inspection,Michael O'Donnell,Performed vibration sensor calibration,Bearing kit,1.4,11045.95,Completed successfully
+MCE-0038,2024-02-22,Blade adjustment,James Chen,Performed oil change,Blade components,0.9,18655.05,Completed successfully
+MCE-0016,2024-02-20,Emergency repair,Emma Thompson,Performed inverter firmware update,Sensor module,4.7,11674.32,Completed successfully
+MCE-0099,2024-02-20,Emergency repair,Michael O'Donnell,Performed cooling system service,Sensor module,6.6,24546.32,Completed successfully
+MCE-0052,2024-02-16,Bearing replacement,Emma Thompson,Performed scheduled inspection,Oil filter,1.3,14586.83,Completed successfully
+MCE-0057,2024-02-16,Bearing replacement,Sarah Williams,Performed scheduled inspection,Sensor module,7.6,18025.59,Follow-up required
+MCE-0047,2024-02-16,Bearing replacement,Sarah Williams,Performed cooling system service,Blade components,6.1,11615.03,Completed successfully
+MCE-0087,2024-02-14,Cooling system service,Sarah Williams,Performed vibration sensor calibration,Sensor module,4.3,2439.4,Completed successfully
+MCE-0010,2024-02-13,Blade adjustment,Sarah Williams,Performed oil change,Oil filter,1.6,17484.01,Completed successfully
+MCE-0019,2024-02-06,Bearing replacement,Sarah Williams,Performed bearing replacement,Oil filter,6.0,11806.04,Completed successfully
+MCE-0048,2024-02-05,Emergency repair,Emma Thompson,Performed oil change,Bearing kit,2.5,7347.71,Follow-up required
+MCE-0059,2024-02-05,Oil change,Michael O'Donnell,Performed inverter firmware update,Blade components,6.4,921.2,Completed successfully
+MCE-0009,2024-02-03,Oil change,Emma Thompson,Performed bearing replacement,Bearing kit,7.5,9503.45,Completed successfully
+MCE-0018,2024-02-01,Oil change,David Martinez,Performed vibration sensor calibration,Oil filter,2.9,1713.86,Completed successfully
+MCE-0028,2024-01-31,Oil change,James Chen,Performed vibration sensor calibration,Bearing kit,7.1,9057.6,Follow-up required
+MCE-0076,2024-01-30,Blade adjustment,David Martinez,Performed oil change,Sensor module,5.7,17909.74,Completed successfully
+MCE-0076,2024-01-23,Inverter firmware update,Sarah Williams,Performed cooling system service,Sensor module,1.1,14847.25,Completed successfully
+MCE-0039,2024-01-22,Inverter firmware update,David Martinez,Performed bearing replacement,Sensor module,3.9,8027.78,Completed successfully
+MCE-0097,2024-01-21,Blade adjustment,James Chen,Performed oil change,None,1.1,13598.2,Follow-up required
+MCE-0063,2024-01-19,Oil change,James Chen,Performed cooling system service,Bearing kit,6.0,21048.87,Completed successfully
+MCE-0090,2024-01-19,Blade adjustment,James Chen,Performed emergency repair,Blade components,3.6,2962.35,Completed successfully
+MCE-0013,2024-01-17,Vibration sensor calibration,James Chen,Performed cooling system service,Sensor module,6.4,1603.31,Completed successfully
+MCE-0039,2024-01-16,Blade adjustment,Michael O'Donnell,Performed oil change,Sensor module,3.8,13458.65,Completed successfully
+MCE-0063,2024-01-15,Cooling system service,Emma Thompson,Performed scheduled inspection,Bearing kit,1.8,6793.88,Completed successfully
+MCE-0065,2024-01-08,Inverter firmware update,Emma Thompson,Performed emergency repair,None,1.6,9273.52,Completed successfully
+MCE-0006,2024-01-06,Emergency repair,Michael O'Donnell,Performed vibration sensor calibration,None,7.5,15068.86,Completed successfully
+MCE-0065,2024-01-03,Emergency repair,David Martinez,Performed bearing replacement,Sensor module,3.2,4291.73,Completed successfully
+MCE-0036,2024-01-03,Bearing replacement,James Chen,Performed blade adjustment,Sensor module,7.4,7923.89,Completed successfully
+MCE-0024,2024-01-01,Scheduled inspection,Emma Thompson,Performed vibration sensor calibration,Sensor module,5.5,13888.38,Completed successfully
+MCE-0097,2023-12-31,Emergency repair,David Martinez,Performed emergency repair,Bearing kit,2.1,10012.41,Completed successfully
+MCE-0006,2023-12-31,Inverter firmware update,Michael O'Donnell,Performed emergency repair,None,7.4,14311.03,Completed successfully
+MCE-0037,2023-12-30,Oil change,Michael O'Donnell,Performed scheduled inspection,None,1.6,19563.91,Completed successfully
+MCE-0013,2023-12-27,Blade adjustment,David Martinez,Performed cooling system service,None,4.6,9264.94,Completed successfully
+MCE-0085,2023-12-25,Inverter firmware update,Sarah Williams,Performed bearing replacement,Sensor module,7.1,13428.75,Completed successfully
+MCE-0046,2023-12-23,Inverter firmware update,Michael O'Donnell,Performed bearing replacement,None,1.1,22385.88,Completed successfully
+MCE-0028,2023-12-23,Cooling system service,James Chen,Performed cooling system service,Oil filter,6.4,11480.78,Completed successfully
+MCE-0059,2023-12-22,Oil change,James Chen,Performed oil change,Bearing kit,3.0,16111.36,Completed successfully
+MCE-0095,2023-12-21,Bearing replacement,James Chen,Performed cooling system service,Blade components,2.6,8793.33,Follow-up required
+MCE-0019,2023-12-15,Bearing replacement,Sarah Williams,Performed blade adjustment,Blade components,0.9,1170.95,Completed successfully
+MCE-0027,2023-12-13,Blade adjustment,Sarah Williams,Performed scheduled inspection,Blade components,6.6,5457.74,Completed successfully
+MCE-0081,2023-12-08,Scheduled inspection,Michael O'Donnell,Performed blade adjustment,Sensor module,3.6,22116.41,Follow-up required
+MCE-0031,2023-12-07,Blade adjustment,Sarah Williams,Performed emergency repair,None,7.3,2540.89,Completed successfully
+MCE-0017,2023-12-06,Inverter firmware update,David Martinez,Performed vibration sensor calibration,Blade components,1.9,11877.88,Follow-up required
+MCE-0058,2023-12-03,Cooling system service,Emma Thompson,Performed oil change,Oil filter,2.6,2376.42,Completed successfully
+MCE-0099,2023-11-29,Cooling system service,Michael O'Donnell,Performed blade adjustment,Sensor module,7.1,21209.07,Completed successfully
+MCE-0049,2023-11-28,Inverter firmware update,David Martinez,Performed vibration sensor calibration,Oil filter,1.9,9643.26,Completed successfully
+MCE-0036,2023-11-27,Vibration sensor calibration,James Chen,Performed cooling system service,Oil filter,0.6,24221.9,Completed successfully
+MCE-0033,2023-11-26,Vibration sensor calibration,Michael O'Donnell,Performed vibration sensor calibration,Blade components,3.4,4684.97,Completed successfully
+MCE-0020,2023-11-24,Blade adjustment,Michael O'Donnell,Performed cooling system service,None,7.7,14106.74,Completed successfully
+MCE-0067,2023-11-21,Blade adjustment,Sarah Williams,Performed scheduled inspection,Sensor module,6.4,19546.81,Completed successfully
+MCE-0066,2023-11-19,Vibration sensor calibration,Sarah Williams,Performed emergency repair,Oil filter,4.7,20930.68,Completed successfully
+MCE-0070,2023-11-17,Cooling system service,Sarah Williams,Performed emergency repair,Oil filter,4.6,7941.2,Completed successfully
+MCE-0031,2023-11-15,Blade adjustment,James Chen,Performed scheduled inspection,Sensor module,5.2,8502.62,Completed successfully
+MCE-0020,2023-11-14,Vibration sensor calibration,Sarah Williams,Performed bearing replacement,Bearing kit,2.2,13779.97,Completed successfully
+MCE-0056,2023-11-12,Bearing replacement,James Chen,Performed scheduled inspection,None,5.0,5867.05,Completed successfully
+MCE-0099,2023-11-11,Vibration sensor calibration,Sarah Williams,Performed oil change,Blade components,6.5,9589.37,Completed successfully
+MCE-0073,2023-11-10,Inverter firmware update,Emma Thompson,Performed bearing replacement,Oil filter,5.8,22313.73,Completed successfully
+MCE-0077,2023-11-10,Scheduled inspection,Michael O'Donnell,Performed cooling system service,Bearing kit,7.7,9352.01,Completed successfully
+MCE-0073,2023-11-06,Oil change,Emma Thompson,Performed inverter firmware update,None,2.9,16860.6,Completed successfully
+MCE-0066,2023-11-05,Emergency repair,Emma Thompson,Performed oil change,Sensor module,5.0,5838.26,Completed successfully
+MCE-0030,2023-11-04,Inverter firmware update,Emma Thompson,Performed inverter firmware update,Bearing kit,5.0,18243.4,Completed successfully
+MCE-0028,2023-11-03,Blade adjustment,Emma Thompson,Performed blade adjustment,None,5.5,20402.92,Completed successfully
+MCE-0053,2023-11-01,Emergency repair,Sarah Williams,Performed bearing replacement,Blade components,0.5,13145.87,Completed successfully
+MCE-0076,2023-10-29,Oil change,James Chen,Performed inverter firmware update,None,4.1,16632.32,Completed successfully
+MCE-0091,2023-10-29,Bearing replacement,James Chen,Performed scheduled inspection,None,4.2,5313.01,Completed successfully
+MCE-0076,2023-10-27,Oil change,Michael O'Donnell,Performed emergency repair,Oil filter,4.6,5123.22,Completed successfully
+MCE-0030,2023-10-25,Inverter firmware update,David Martinez,Performed bearing replacement,Oil filter,4.4,5379.48,Completed successfully
+MCE-0096,2023-10-22,Oil change,Emma Thompson,Performed oil change,Oil filter,3.0,19094.13,Completed successfully
+MCE-0088,2023-10-22,Oil change,Sarah Williams,Performed cooling system service,None,5.1,14955.21,Completed successfully
+MCE-0028,2023-10-17,Blade adjustment,James Chen,Performed oil change,Blade components,2.9,19057.55,Completed successfully
+MCE-0053,2023-10-17,Cooling system service,Michael O'Donnell,Performed vibration sensor calibration,Oil filter,1.6,21464.23,Completed successfully
+MCE-0078,2023-10-17,Bearing replacement,James Chen,Performed inverter firmware update,Sensor module,5.8,24142.44,Completed successfully
+MCE-0088,2023-10-16,Oil change,James Chen,Performed vibration sensor calibration,None,3.5,24179.21,Completed successfully
+MCE-0067,2023-10-15,Emergency repair,James Chen,Performed emergency repair,Blade components,5.0,11852.65,Completed successfully
+MCE-0033,2023-10-14,Vibration sensor calibration,David Martinez,Performed inverter firmware update,Bearing kit,6.2,14565.31,Completed successfully
+MCE-0058,2023-10-12,Bearing replacement,David Martinez,Performed inverter firmware update,Blade components,4.7,24838.83,Completed successfully
+MCE-0060,2023-10-08,Scheduled inspection,James Chen,Performed vibration sensor calibration,Oil filter,6.2,23527.72,Completed successfully
+MCE-0002,2023-10-02,Cooling system service,James Chen,Performed vibration sensor calibration,Sensor module,3.5,570.7,Completed successfully
+MCE-0095,2023-10-02,Oil change,Sarah Williams,Performed scheduled inspection,Oil filter,5.0,11976.36,Completed successfully
+MCE-0004,2023-10-02,Vibration sensor calibration,Emma Thompson,Performed scheduled inspection,None,2.3,10153.03,Completed successfully
+MCE-0077,2023-10-01,Scheduled inspection,Emma Thompson,Performed vibration sensor calibration,Oil filter,3.4,5850.52,Completed successfully
+MCE-0017,2023-09-28,Blade adjustment,Emma Thompson,Performed cooling system service,None,5.7,1327.48,Completed successfully
+MCE-0046,2023-09-24,Vibration sensor calibration,Emma Thompson,Performed scheduled inspection,Sensor module,7.4,7727.14,Completed successfully
+MCE-0064,2023-09-18,Bearing replacement,Michael O'Donnell,Performed emergency repair,Oil filter,4.6,8363.31,Completed successfully
+MCE-0072,2023-09-14,Oil change,James Chen,Performed scheduled inspection,Sensor module,4.7,18640.26,Completed successfully
+MCE-0057,2023-09-08,Vibration sensor calibration,Michael O'Donnell,Performed blade adjustment,Sensor module,2.8,18272.45,Completed successfully
+MCE-0041,2023-09-07,Inverter firmware update,Michael O'Donnell,Performed scheduled inspection,Blade components,4.9,14853.01,Follow-up required
+MCE-0014,2023-09-07,Vibration sensor calibration,Emma Thompson,Performed emergency repair,None,0.8,23894.83,Completed successfully
+MCE-0007,2023-09-05,Blade adjustment,Michael O'Donnell,Performed oil change,Bearing kit,1.8,7495.99,Follow-up required
+MCE-0040,2023-08-28,Oil change,Michael O'Donnell,Performed bearing replacement,Sensor module,1.9,11406.67,Completed successfully
+MCE-0070,2023-08-28,Inverter firmware update,James Chen,Performed vibration sensor calibration,None,8.0,18961.67,Completed successfully
+MCE-0031,2023-08-25,Blade adjustment,Sarah Williams,Performed oil change,Blade components,7.9,5566.82,Completed successfully
+MCE-0001,2023-08-24,Blade adjustment,David Martinez,Performed cooling system service,Sensor module,4.6,2498.05,Completed successfully
+MCE-0052,2023-08-21,Bearing replacement,David Martinez,Performed bearing replacement,Blade components,0.7,7643.61,Completed successfully
+MCE-0087,2023-08-18,Cooling system service,Michael O'Donnell,Performed scheduled inspection,Oil filter,7.1,20763.19,Completed successfully
+MCE-0038,2023-08-18,Scheduled inspection,Michael O'Donnell,Performed emergency repair,Sensor module,4.1,10025.54,Completed successfully
+MCE-0025,2023-08-16,Oil change,Emma Thompson,Performed oil change,Sensor module,4.3,23312.78,Completed successfully
+MCE-0058,2023-08-13,Vibration sensor calibration,David Martinez,Performed emergency repair,Blade components,6.9,7104.28,Completed successfully
+MCE-0033,2023-08-08,Inverter firmware update,Sarah Williams,Performed scheduled inspection,None,2.5,12141.9,Completed successfully
+MCE-0009,2023-08-08,Emergency repair,Emma Thompson,Performed oil change,Blade components,3.7,17208.23,Completed successfully
+MCE-0078,2023-08-08,Vibration sensor calibration,Sarah Williams,Performed blade adjustment,Bearing kit,2.0,21749.99,Completed successfully
+MCE-0019,2023-08-06,Oil change,James Chen,Performed oil change,Bearing kit,7.0,19161.25,Completed successfully
+MCE-0054,2023-08-06,Bearing replacement,James Chen,Performed bearing replacement,Sensor module,1.2,15301.16,Completed successfully
+MCE-0062,2023-08-02,Vibration sensor calibration,David Martinez,Performed bearing replacement,Bearing kit,1.9,7526.5,Follow-up required
+MCE-0066,2023-07-31,Vibration sensor calibration,Emma Thompson,Performed inverter firmware update,Oil filter,0.6,16491.21,Completed successfully
+MCE-0080,2023-07-25,Cooling system service,Emma Thompson,Performed inverter firmware update,None,6.9,3718.65,Completed successfully
+MCE-0087,2023-07-25,Vibration sensor calibration,James Chen,Performed blade adjustment,Blade components,3.3,19145.6,Follow-up required
+MCE-0095,2023-07-18,Oil change,Sarah Williams,Performed scheduled inspection,Sensor module,2.2,22672.1,Completed successfully
+MCE-0043,2023-07-12,Cooling system service,Emma Thompson,Performed oil change,Blade components,7.3,9587.91,Completed successfully
+MCE-0066,2023-07-09,Oil change,Emma Thompson,Performed scheduled inspection,Oil filter,4.7,8642.1,Completed successfully
+MCE-0040,2023-07-09,Blade adjustment,Michael O'Donnell,Performed inverter firmware update,Blade components,2.0,8667.57,Completed successfully
+MCE-0054,2023-07-08,Scheduled inspection,Emma Thompson,Performed scheduled inspection,Blade components,6.5,8752.54,Completed successfully
+MCE-0046,2023-07-04,Cooling system service,Sarah Williams,Performed cooling system service,Blade components,7.0,16052.93,Completed successfully
+MCE-0088,2023-06-30,Vibration sensor calibration,Michael O'Donnell,Performed bearing replacement,Oil filter,3.3,8105.09,Completed successfully
+MCE-0077,2023-06-30,Bearing replacement,James Chen,Performed blade adjustment,None,6.9,17523.28,Completed successfully
+MCE-0068,2023-06-28,Cooling system service,Emma Thompson,Performed vibration sensor calibration,Blade components,1.4,12549.59,Completed successfully
+MCE-0052,2023-06-26,Inverter firmware update,David Martinez,Performed scheduled inspection,Oil filter,2.5,8951.19,Completed successfully
+MCE-0018,2023-06-25,Scheduled inspection,Sarah Williams,Performed cooling system service,Sensor module,1.3,13460.9,Completed successfully
+MCE-0011,2023-06-18,Vibration sensor calibration,James Chen,Performed scheduled inspection,Blade components,7.8,1616.26,Completed successfully
+MCE-0062,2023-06-17,Oil change,Sarah Williams,Performed blade adjustment,Blade components,7.1,14907.93,Completed successfully
+MCE-0063,2023-06-13,Scheduled inspection,Emma Thompson,Performed emergency repair,Sensor module,1.0,15683.72,Completed successfully
+MCE-0086,2023-06-12,Vibration sensor calibration,Emma Thompson,Performed oil change,Bearing kit,4.7,13494.4,Completed successfully
+MCE-0058,2023-06-10,Emergency repair,James Chen,Performed oil change,Blade components,1.0,5588.49,Follow-up required
+MCE-0060,2023-06-07,Bearing replacement,Sarah Williams,Performed bearing replacement,None,6.1,14947.5,Completed successfully
+MCE-0015,2023-06-06,Vibration sensor calibration,Michael O'Donnell,Performed blade adjustment,Oil filter,7.6,17280.98,Completed successfully
+MCE-0095,2023-06-05,Emergency repair,Michael O'Donnell,Performed cooling system service,Sensor module,2.7,18297.03,Completed successfully
+MCE-0064,2023-06-04,Cooling system service,David Martinez,Performed vibration sensor calibration,Sensor module,3.5,19957.6,Completed successfully
+MCE-0025,2023-06-04,Emergency repair,Michael O'Donnell,Performed inverter firmware update,None,1.3,19773.16,Completed successfully
+MCE-0013,2023-06-02,Scheduled inspection,Sarah Williams,Performed scheduled inspection,Sensor module,1.8,24421.66,Completed successfully
+MCE-0012,2023-05-30,Blade adjustment,James Chen,Performed bearing replacement,Blade components,0.9,10222.08,Completed successfully
+MCE-0041,2023-05-29,Emergency repair,Emma Thompson,Performed oil change,Blade components,6.6,14926.83,Follow-up required
+MCE-0016,2023-05-28,Scheduled inspection,James Chen,Performed scheduled inspection,Oil filter,3.7,14250.93,Completed successfully
+MCE-0066,2023-05-26,Blade adjustment,Emma Thompson,Performed scheduled inspection,Oil filter,1.2,8292.23,Completed successfully
+MCE-0090,2023-05-18,Vibration sensor calibration,Emma Thompson,Performed bearing replacement,Blade components,7.6,14188.13,Completed successfully
+MCE-0070,2023-05-09,Inverter firmware update,David Martinez,Performed cooling system service,Bearing kit,3.9,513.98,Completed successfully
+MCE-0046,2023-05-06,Blade adjustment,James Chen,Performed inverter firmware update,Oil filter,4.1,5609.0,Completed successfully
+MCE-0043,2023-05-06,Cooling system service,David Martinez,Performed cooling system service,Blade components,1.4,13198.66,Completed successfully
+MCE-0058,2023-05-05,Vibration sensor calibration,David Martinez,Performed oil change,Oil filter,7.6,19043.13,Completed successfully
+MCE-0005,2023-05-01,Bearing replacement,David Martinez,Performed vibration sensor calibration,Oil filter,5.3,18246.69,Completed successfully
+MCE-0070,2023-04-30,Oil change,David Martinez,Performed bearing replacement,Oil filter,7.2,3387.89,Completed successfully
+MCE-0099,2023-04-27,Scheduled inspection,Michael O'Donnell,Performed vibration sensor calibration,None,0.6,24252.93,Completed successfully
+MCE-0039,2023-04-27,Oil change,Emma Thompson,Performed inverter firmware update,Blade components,5.3,18421.91,Completed successfully
+MCE-0048,2023-04-27,Inverter firmware update,James Chen,Performed blade adjustment,Oil filter,2.5,24946.85,Completed successfully
+MCE-0090,2023-04-25,Cooling system service,Sarah Williams,Performed emergency repair,Oil filter,0.7,15515.99,Completed successfully
+MCE-0091,2023-04-24,Cooling system service,James Chen,Performed blade adjustment,None,1.1,14602.17,Completed successfully
+MCE-0014,2023-04-24,Bearing replacement,Sarah Williams,Performed bearing replacement,Oil filter,2.8,23549.62,Completed successfully
+MCE-0045,2023-04-24,Blade adjustment,Emma Thompson,Performed vibration sensor calibration,Oil filter,7.4,2432.21,Completed successfully
+MCE-0056,2023-04-23,Inverter firmware update,Michael O'Donnell,Performed oil change,None,2.2,22862.2,Completed successfully
+MCE-0011,2023-04-21,Bearing replacement,David Martinez,Performed oil change,Oil filter,3.4,2917.42,Completed successfully
+MCE-0029,2023-04-21,Emergency repair,David Martinez,Performed emergency repair,Oil filter,6.7,13259.13,Completed successfully
+MCE-0080,2023-04-15,Cooling system service,Michael O'Donnell,Performed emergency repair,Sensor module,1.8,10074.96,Completed successfully
+MCE-0100,2023-04-08,Cooling system service,James Chen,Performed bearing replacement,Sensor module,7.7,17181.93,Follow-up required
+MCE-0066,2023-04-08,Emergency repair,David Martinez,Performed scheduled inspection,None,7.2,17505.02,Completed successfully
+MCE-0009,2023-04-05,Emergency repair,Michael O'Donnell,Performed inverter firmware update,None,0.9,12681.89,Completed successfully
+MCE-0086,2023-04-01,Cooling system service,David Martinez,Performed oil change,None,5.2,2676.02,Completed successfully
+MCE-0001,2023-03-30,Emergency repair,Sarah Williams,Performed inverter firmware update,Sensor module,7.7,8119.3,Follow-up required
+MCE-0083,2023-03-29,Bearing replacement,David Martinez,Performed oil change,None,1.4,4271.0,Completed successfully
+MCE-0045,2023-03-28,Vibration sensor calibration,David Martinez,Performed blade adjustment,Oil filter,3.1,20062.74,Follow-up required
+MCE-0053,2023-03-27,Vibration sensor calibration,Michael O'Donnell,Performed emergency repair,Bearing kit,4.3,3373.07,Completed successfully
+MCE-0087,2023-03-27,Oil change,James Chen,Performed cooling system service,Blade components,3.9,12711.12,Completed successfully
+MCE-0085,2023-03-25,Bearing replacement,Michael O'Donnell,Performed scheduled inspection,Oil filter,7.5,19480.41,Completed successfully
+MCE-0004,2023-03-23,Vibration sensor calibration,Michael O'Donnell,Performed cooling system service,Bearing kit,2.8,7530.02,Completed successfully
+MCE-0040,2023-03-23,Bearing replacement,Michael O'Donnell,Performed vibration sensor calibration,None,1.9,7340.8,Completed successfully
+MCE-0026,2023-03-20,Scheduled inspection,Sarah Williams,Performed cooling system service,Blade components,3.6,22996.22,Completed successfully
+MCE-0054,2023-03-17,Inverter firmware update,Sarah Williams,Performed blade adjustment,None,1.4,2871.14,Completed successfully
+MCE-0088,2023-03-17,Emergency repair,Emma Thompson,Performed emergency repair,Blade components,1.9,22950.93,Completed successfully
+MCE-0081,2023-03-12,Scheduled inspection,James Chen,Performed oil change,None,4.1,17546.56,Completed successfully

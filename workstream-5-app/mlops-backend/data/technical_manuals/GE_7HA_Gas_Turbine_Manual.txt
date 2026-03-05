@@ -1,0 +1,22 @@
+
+GE 7HA.02 GAS TURBINE MAINTENANCE MANUAL
+
+CRITICAL SAFETY:
+- Hot gas path temperature exceeds 1400°C
+- Mandatory 24-hour cooldown before inspection
+- High-temperature PPE required (rating: 600°C)
+- Gas detection equipment mandatory
+
+COMPRESSOR BLADE FAILURE (High vibration + temp):
+1. Perform borescope inspection of all stages
+2. Check for foreign object damage (FOD)
+3. Inspect blade dovetails for cracking
+4. Verify stage 1 blade tip clearance
+
+REQUIRED PARTS FOR BLADE REPLACEMENT:
+- Stage 1-3 compressor blade set (Part #: 7HA-CB-S123)
+- Blade root locking pins
+- High-temp anti-seize compound
+
+ESTIMATED REPAIR TIME: 12-16 hours
+        
