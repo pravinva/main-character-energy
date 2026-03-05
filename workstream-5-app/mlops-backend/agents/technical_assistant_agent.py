@@ -10,8 +10,8 @@ This agent:
 5. Writes work order to Lakebase for mobile app
 """
 
-import anthropic
 import os
+import requests
 from databricks.sdk import WorkspaceClient
 from databricks.sdk.service.vectorsearch import VectorSearchIndex
 import psycopg2
@@ -21,7 +21,10 @@ import json
 
 # Initialize clients
 w = WorkspaceClient()
-claude_client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+
+# Databricks Foundation Model API endpoint
+FMAPI_ENDPOINT = "https://7474651028007974.ai-gateway.cloud.databricks.com/mlflow/v1/chat/completions"
+DATABRICKS_TOKEN = os.environ.get("DATABRICKS_TOKEN")
 
 # Lakebase connection
 LAKEBASE_CONN_STRING = os.environ.get("LAKEBASE_CONN_STRING")
@@ -225,15 +228,28 @@ Format your response as JSON:
 }}"""
 
     try:
-        response = claude_client.messages.create(
-            model="claude-sonnet-4-5-20250929",
-            max_tokens=2000,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_prompt}]
-        )
+        # Call Databricks Foundation Model API
+        headers = {
+            "Authorization": f"Bearer {DATABRICKS_TOKEN}",
+            "Content-Type": "application/json"
+        }
 
-        # Parse Claude's response
-        response_text = response.content[0].text
+        payload = {
+            "model": "claude-3-5-sonnet-20240620",  # Available via Databricks FMAPI
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            "max_tokens": 2000,
+            "temperature": 0.7
+        }
+
+        response = requests.post(FMAPI_ENDPOINT, headers=headers, json=payload, timeout=30)
+        response.raise_for_status()
+
+        # Parse response
+        response_data = response.json()
+        response_text = response_data['choices'][0]['message']['content']
 
         # Extract JSON from response (Claude might wrap it in markdown)
         if "```json" in response_text:
@@ -246,7 +262,7 @@ Format your response as JSON:
         return work_order_data
 
     except Exception as e:
-        print(f"Error calling Claude API: {e}")
+        print(f"Error calling Databricks FMAPI: {e}")
         # Fallback to basic work order
         return {
             "failure_type": "Unknown - Manual inspection required",
