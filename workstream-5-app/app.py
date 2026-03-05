@@ -315,7 +315,7 @@ def get_dashboard_stats():
 # ─── STATIC FILES (FRONTEND) ────────────────────────────────────────────────
 
 # Mount static files from frontend/dist
-static_path = Path(__file__).parent.parent / "frontend" / "dist"
+static_path = Path(__file__).parent / "frontend" / "dist"
 if static_path.exists():
     app.mount("/assets", StaticFiles(directory=str(static_path / "assets")), name="assets")
 

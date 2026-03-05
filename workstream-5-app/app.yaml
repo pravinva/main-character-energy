@@ -1,20 +1,6 @@
-name: main-character-energy
-description: Main Character Energy - Field Operations Dashboard
-
-resources:
-  - name: backend
-    runtime: python3.11
-    source_code_path: ./backend
-    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
-    env:
-      - name: LAKEBASE_OAUTH_TOKEN
-        value: "{{secrets/mce-secrets/lakebase-oauth-token}}"
-      - name: DATABRICKS_HOST
-        value: "https://fe-sandbox-serverless-sandbox-tladem.cloud.databricks.com"
-
-  - name: frontend
-    runtime: static
-    source_code_path: ./frontend/dist
-
-permissions:
-  service_principal: true
+command: ['uvicorn', 'app:app', '--host', '0.0.0.0', '--port', '8000']
+env:
+  - name: LAKEBASE_OAUTH_TOKEN
+    value: "{{secrets/mce-secrets/lakebase-oauth-token}}"
+  - name: DATABRICKS_HOST
+    value: "https://fe-sandbox-serverless-sandbox-tladem.cloud.databricks.com"
