@@ -1,0 +1,29 @@
+{
+  "name": "mce_telemetry_ingestion",
+  "storage": "/mnt/mce_dlt_storage",
+  "configuration": {
+    "pipelines.applyChangesPreviewEnabled": "true"
+  },
+  "clusters": [
+    {
+      "label": "default",
+      "autoscale": {
+        "min_workers": 1,
+        "max_workers": 5,
+        "mode": "ENHANCED"
+      }
+    }
+  ],
+  "libraries": [
+    {
+      "notebook": {
+        "path": "/Users/pravin.varma@databricks.com/main-character-energy/mce_dlt_pipeline"
+      }
+    }
+  ],
+  "target": "serverless_sandbox_tladem_catalog.mce_silver",
+  "continuous": false,
+  "channel": "CURRENT",
+  "photon": true,
+  "edition": "ADVANCED"
+}
