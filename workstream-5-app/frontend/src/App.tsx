@@ -75,6 +75,8 @@ export default function App() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [lastUpdated, setLastUpdated] = useState<string>("");
   const [expandedWorkOrder, setExpandedWorkOrder] = useState<string | null>(null);
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiProof, setAiProof] = useState<any>(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -100,6 +102,36 @@ export default function App() {
     const interval = setInterval(fetchData, 30000);
     return () => clearInterval(interval);
   }, []);
+
+  const generateAIWorkOrder = async () => {
+    setAiLoading(true);
+    setAiProof(null);
+    try {
+      const response = await fetch(`${API_BASE}/generate-ai-work-order`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' }
+      });
+      const result = await response.json();
+
+      if (result.success) {
+        // Add AI-generated work order to the top of the list
+        setWorkOrders([result.work_order, ...workOrders]);
+        setAiProof(result.proof);
+        alert(`✅ Live AI Work Order Generated!\n\n` +
+              `Request ID: ${result.proof.request_id}\n` +
+              `Latency: ${result.proof.latency_seconds}s\n` +
+              `Tokens: ${result.proof.tokens_used}\n\n` +
+              `This is REAL Claude AI - run again for different reasoning!`);
+      } else {
+        alert(result.message || 'AI generation not available in local mode');
+      }
+    } catch (err) {
+      console.error("Failed to generate AI work order:", err);
+      alert('AI generation requires DATABRICKS_TOKEN - works automatically when deployed');
+    } finally {
+      setAiLoading(false);
+    }
+  };
 
   const getAssetPrefix = (type: string): string => {
     const prefixes: Record<string, string> = {
@@ -352,7 +384,34 @@ export default function App() {
                 <div style={{ fontSize: "14px", fontWeight: 600, color: C.textPrimary, letterSpacing: "1px", marginBottom: "4px" }}>AI-GENERATED WORK ORDERS</div>
                 <div style={{ fontSize: "12px", color: C.textSec }}>Powered by Claude AI · Technical manual RAG · Safety validation</div>
               </div>
-              <div style={{ fontSize: "13px", color: C.textMuted }}>{lastUpdated}</div>
+              <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+                <button
+                  onClick={generateAIWorkOrder}
+                  disabled={aiLoading}
+                  style={{
+                    padding: "12px 24px",
+                    backgroundColor: aiLoading ? C.gray : C.purple,
+                    color: "white",
+                    border: "none",
+                    borderRadius: "8px",
+                    fontSize: "14px",
+                    fontWeight: 600,
+                    cursor: aiLoading ? "not-allowed" : "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    transition: "all 0.2s"
+                  }}
+                >
+                  {aiLoading ? "⏳ Calling Claude AI..." : "🤖 Generate Live AI Work Order"}
+                </button>
+                {aiProof && (
+                  <div style={{ padding: "8px 16px", backgroundColor: C.purple, color: "white", borderRadius: "8px", fontSize: "12px", fontWeight: 600 }}>
+                    ✅ Request: {aiProof.request_id?.substring(0, 12)}... · {aiProof.latency_seconds}s · {aiProof.tokens_used} tokens
+                  </div>
+                )}
+                <div style={{ fontSize: "13px", color: C.textMuted }}>{lastUpdated}</div>
+              </div>
             </div>
 
             {/* Work Orders List */}

@@ -232,6 +232,154 @@ def get_technicians():
             {"id": "TECH-008", "name": "Rachel Kim", "site": "Yarra Valley Hydro, VIC", "certifications": '{"hydro": true}', "location": "Yarra Valley depot", "available": True, "activeOrders": 0}
         ]
 
+@app.post("/api/generate-ai-work-order")
+def generate_ai_work_order():
+    """
+    Live AI Demo: Generate a work order using Claude via Databricks FMAPI
+    Returns proof it's real: unique request ID, latency, token usage
+    """
+    import requests
+    import time
+    from datetime import datetime, timedelta
+
+    # Get Databricks token
+    DATABRICKS_TOKEN = os.environ.get("DATABRICKS_TOKEN")
+    if not DATABRICKS_TOKEN:
+        # Try OAuth token as fallback
+        DATABRICKS_TOKEN = os.environ.get("LAKEBASE_OAUTH_TOKEN")
+
+    if not DATABRICKS_TOKEN:
+        return {
+            "error": "No DATABRICKS_TOKEN configured",
+            "message": "This will work automatically when deployed to Databricks Apps",
+            "demo_mode": True
+        }
+
+    # Simulate critical alert for demo
+    alert = {
+        "asset_id": "MCE-0093",
+        "asset_name": "Vestas V150-4.2MW Turbine 93",
+        "asset_type": "wind_turbine",
+        "site": "Sydney North Wind Farm, NSW",
+        "vibration_hz": 95.3,
+        "temp_celsius": 48.2,
+        "alert_timestamp": datetime.now().isoformat()
+    }
+
+    system_prompt = """You are an expert field service engineer for Main Character Energy.
+You analyze equipment failures and generate detailed work orders for field technicians.
+
+Your work orders must include:
+1. Clear diagnosis of the failure based on sensor data
+2. Required parts list (specific part numbers)
+3. Step-by-step repair procedure
+4. Estimated duration
+5. AI repair summary explaining the reasoning
+
+Be precise, safety-focused, and include all details a field technician needs."""
+
+    user_prompt = f"""Generate a work order for this critical alert:
+
+Asset: {alert['asset_name']} (ID: {alert['asset_id']})
+Type: {alert['asset_type']}
+Location: {alert['site']}
+
+Current Sensor Readings:
+- Vibration: {alert['vibration_hz']} Hz (CRITICAL - threshold exceeded)
+- Temperature: {alert['temp_celsius']}°C
+- Alert Time: {alert['alert_timestamp']}
+
+Based on this information, provide:
+1. A diagnostic summary (2-3 sentences explaining WHY this failure occurred)
+2. The specific failure type (e.g., "Bearing failure")
+3. Predicted failure date (estimate based on vibration severity)
+4. Priority level (P1 if vibration > 90Hz, P2 if > 80Hz)
+
+Format your response as JSON:
+{{
+  "failure_type": "...",
+  "predicted_failure_date": "YYYY-MM-DD",
+  "priority": "P1|P2|P3",
+  "ai_repair_summary": "Your 2-3 sentence diagnostic reasoning here",
+  "required_parts": "Exact parts needed",
+  "estimated_duration_hours": 8
+}}"""
+
+    try:
+        headers = {
+            "Authorization": f"Bearer {DATABRICKS_TOKEN}",
+            "Content-Type": "application/json"
+        }
+
+        payload = {
+            "model": "claude-3-5-sonnet-20240620",
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            "max_tokens": 2000,
+            "temperature": 0.7
+        }
+
+        start_time = time.time()
+        response = requests.post(
+            "https://7474651028007974.ai-gateway.cloud.databricks.com/mlflow/v1/chat/completions",
+            headers=headers,
+            json=payload,
+            timeout=30
+        )
+        end_time = time.time()
+
+        response.raise_for_status()
+        result = response.json()
+
+        # Parse Claude's response
+        response_text = result['choices'][0]['message']['content']
+
+        # Extract JSON
+        if "```json" in response_text:
+            json_start = response_text.find("```json") + 7
+            json_end = response_text.find("```", json_start)
+            response_text = response_text[json_start:json_end].strip()
+
+        work_order = json.loads(response_text)
+
+        # Add proof metadata
+        return {
+            "success": True,
+            "work_order": {
+                "id": f"WO-AI-{datetime.now().strftime('%Y%m%d-%H%M%S')}",
+                "assetId": alert['asset_id'],
+                "createdAt": datetime.now().isoformat(),
+                "priority": work_order.get('priority', 'P1'),
+                "status": "AI_GENERATED_DEMO",
+                "technician": "Unassigned",
+                "failureDate": work_order.get('predicted_failure_date', (datetime.now() + timedelta(days=3)).strftime('%Y-%m-%d')),
+                "failureType": work_order.get('failure_type', 'Unknown'),
+                "requiredParts": work_order.get('required_parts', 'Parts TBD'),
+                "procedureSteps": "AI-generated procedure (see repair summary)",
+                "safetyChecklist": "Standard safety checklist for wind turbines",
+                "repairSummary": work_order.get('ai_repair_summary', 'AI analysis unavailable'),
+                "estimatedHours": work_order.get('estimated_duration_hours', 8),
+                "updatedAt": datetime.now().isoformat()
+            },
+            "proof": {
+                "request_id": result.get('id', 'N/A'),
+                "model": result.get('model', 'claude-3-5-sonnet-20240620'),
+                "latency_seconds": round(end_time - start_time, 2),
+                "tokens_used": result.get('usage', {}).get('total_tokens', 0),
+                "timestamp": datetime.now().isoformat(),
+                "is_real_ai": True
+            }
+        }
+
+    except Exception as e:
+        return {
+            "error": str(e),
+            "message": "Failed to call Databricks FMAPI - this will work when deployed",
+            "demo_mode": True
+        }
+
 @app.get("/api/dashboard-stats")
 def get_dashboard_stats():
     """Get aggregated dashboard statistics"""
